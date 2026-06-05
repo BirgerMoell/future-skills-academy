@@ -4,7 +4,7 @@ Static website for Future Skills Academy.
 
 The site uses a minimal temple-inspired visual system, the provided logo image, and course subpages for high-leverage AI education concepts.
 
-Public domain: `future-skills-academy.se`
+Public URL: `https://birgermoell.github.io/future-skills-academy/`
 
 The homepage includes the public organisation details needed for the planned MYH/YH account and employer dialogue:
 
