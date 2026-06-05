@@ -8,9 +8,6 @@
   --rose: #c96a70;
   --blush: #e8b7ad;
   --mist: #f2dcd4;
-  --fjord: #1f5f63;
-  --sage: #d7e4d8;
-  --smoke: #edf1ec;
   --line: rgba(51, 36, 50, 0.16);
   --max: 1180px;
   --header: 76px;
@@ -160,16 +157,6 @@ a {
   animation: logoAppear 1400ms cubic-bezier(0.2, 0.7, 0.2, 1) 180ms forwards;
 }
 
-.hero-subline {
-  max-width: 440px;
-  margin: clamp(18px, 2.4vw, 28px) auto 0;
-  color: var(--plum-soft);
-  font-size: clamp(0.88rem, 1.2vw, 1.04rem);
-  letter-spacing: 0.08em;
-  line-height: 1.7;
-  text-transform: uppercase;
-}
-
 .superline,
 .section-note {
   margin: 0 0 34px;
@@ -267,16 +254,6 @@ h1 em {
   max-width: 820px;
 }
 
-.threshold-body,
-.working-life-copy p,
-.organisation-copy p {
-  max-width: 720px;
-  margin: clamp(30px, 4vw, 44px) 0 0;
-  color: var(--plum-soft);
-  font-size: clamp(1.02rem, 1.45vw, 1.22rem);
-  line-height: 1.78;
-}
-
 h2 {
   margin-bottom: 0;
   font-family: Didot, "Bodoni 72", "Times New Roman", serif;
@@ -311,19 +288,12 @@ h2 {
 }
 
 .triad h3 {
-  margin: clamp(84px, 14vw, 170px) 0 0;
+  margin: clamp(96px, 18vw, 210px) 0 0;
   font-family: Didot, "Bodoni 72", "Times New Roman", serif;
   font-size: clamp(2rem, 4.8vw, 5rem);
   font-weight: 300;
   letter-spacing: 0;
   line-height: 0.94;
-}
-
-.triad p {
-  max-width: 270px;
-  margin: 24px 0 0;
-  color: var(--plum-soft);
-  line-height: 1.7;
 }
 
 .disciplines {
@@ -412,100 +382,6 @@ h2 {
   color: var(--plum-soft);
   font-size: 0.84rem;
   line-height: 1.7;
-}
-
-.working-life,
-.organisation {
-  display: grid;
-  width: min(var(--max), calc(100% - 44px));
-  margin: 0 auto;
-}
-
-.working-life {
-  grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr);
-  gap: clamp(34px, 7vw, 112px);
-  align-items: start;
-  padding: clamp(100px, 13vw, 180px) 0;
-}
-
-.working-life-copy {
-  position: sticky;
-  top: calc(var(--header) + 42px);
-}
-
-.work-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  border-top: 1px solid var(--line);
-  border-left: 1px solid var(--line);
-}
-
-.work-grid article {
-  min-height: 240px;
-  padding: clamp(28px, 4vw, 44px);
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  background: rgba(255, 250, 246, 0.42);
-}
-
-.work-grid article:nth-child(2),
-.work-grid article:nth-child(3) {
-  background: linear-gradient(135deg, rgba(215, 228, 216, 0.52), rgba(237, 241, 236, 0.28));
-}
-
-.work-grid span,
-.org-facts dt {
-  color: var(--fjord);
-  font-size: 0.68rem;
-  font-weight: 620;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-}
-
-.work-grid p {
-  margin: clamp(58px, 8vw, 92px) 0 0;
-  color: var(--plum-soft);
-  line-height: 1.7;
-}
-
-.organisation {
-  grid-template-columns: minmax(0, 0.78fr) minmax(420px, 1.22fr);
-  gap: clamp(34px, 7vw, 112px);
-  align-items: start;
-  padding: clamp(100px, 13vw, 180px) 0;
-  border-top: 1px solid var(--line);
-}
-
-.org-facts {
-  display: grid;
-  gap: 0;
-  margin: 0;
-  border-top: 1px solid var(--line);
-}
-
-.org-facts div {
-  display: grid;
-  grid-template-columns: minmax(150px, 0.56fr) minmax(0, 1fr);
-  gap: 24px;
-  padding: 22px 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.org-facts dt,
-.org-facts dd {
-  margin: 0;
-}
-
-.org-facts dd {
-  color: var(--plum);
-  line-height: 1.55;
-}
-
-.org-facts a {
-  color: var(--fjord);
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 5px;
 }
 
 .council {
@@ -873,17 +749,7 @@ footer {
   .course-index a,
   .course-section,
   .course-meta,
-  .module-list,
-  .working-life,
-  .organisation {
-    grid-template-columns: 1fr;
-  }
-
-  .working-life-copy {
-    position: static;
-  }
-
-  .work-grid {
+  .module-list {
     grid-template-columns: 1fr;
   }
 
@@ -958,8 +824,6 @@ footer {
 
   .threshold,
   .triad,
-  .working-life,
-  .organisation,
   .course-hero,
   .course-section,
   .course-meta,
@@ -972,15 +836,8 @@ footer {
   }
 
   .disciplines,
-  .working-life,
-  .organisation,
   .council {
     min-height: 82svh;
-  }
-
-  .org-facts div {
-    grid-template-columns: 1fr;
-    gap: 10px;
   }
 
   .discipline-mark {
