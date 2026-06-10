@@ -1,0 +1,111 @@
+<!doctype html>
+<!-- Source for assets/og-image.png — render at exactly 1200x630:
+     chrome --headless --screenshot=assets/og-image.png --window-size=1200,630 assets/og-template.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+        background: #fbf8f4;
+        font-family: "Helvetica Neue", Inter, system-ui, sans-serif;
+        color: #332432;
+        position: relative;
+      }
+      .frame {
+        position: absolute;
+        inset: 26px;
+        border: 1px solid rgba(51, 36, 50, 0.18);
+      }
+      .accent-bar {
+        position: absolute;
+        top: 26px;
+        left: 26px;
+        width: 10px;
+        height: calc(100% - 52px);
+        background: #bd2848;
+      }
+      .content {
+        position: absolute;
+        top: 0;
+        left: 96px;
+        height: 100%;
+        width: 660px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 34px;
+      }
+      .kicker {
+        font-size: 21px;
+        letter-spacing: 0.34em;
+        text-transform: uppercase;
+        color: #bd2848;
+      }
+      h1 {
+        font-family: "Fraunces", Georgia, serif;
+        font-size: 74px;
+        line-height: 1.08;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+      }
+      h1 em {
+        color: #bd2848;
+      }
+      .tracks {
+        font-size: 21px;
+        line-height: 1.6;
+        color: rgba(51, 36, 50, 0.66);
+        letter-spacing: 0.02em;
+      }
+      .tracks b {
+        color: #332432;
+        font-weight: 500;
+      }
+      .domain {
+        position: absolute;
+        bottom: 56px;
+        left: 96px;
+        font-size: 22px;
+        letter-spacing: 0.12em;
+        color: #bd2848;
+      }
+      .logo {
+        position: absolute;
+        right: 90px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 330px;
+      }
+      .logo img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame"></div>
+    <div class="accent-bar"></div>
+    <div class="content">
+      <div class="kicker">Future Skills Academy</div>
+      <h1>The skills that <em>compound</em> when AI does the rest.</h1>
+      <div class="tracks">
+        <b>Member of Technical Staff</b> · <b>High Agency</b> · <b>Taste</b> ·
+        <b>Relationships</b> · <b>Communication</b>
+      </div>
+    </div>
+    <div class="domain">futureskillsacademy.ai</div>
+    <div class="logo"><img src="future-skills-brush.png" alt="" /></div>
+  </body>
+</html>
