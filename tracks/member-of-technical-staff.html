@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Member of Technical Staff — the Future Skills Academy track for AI-native engineering: context engineering, agents, evals, and the fundamentals that make you the one who can tell when the machine is wrong."
+    />
+    <title>Member of Technical Staff — Future Skills Academy</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23322432'/%3E%3Cpath d='M17 42C30 17 48 14 50 18C40 22 33 31 28 46' fill='none' stroke='%23c23c56' stroke-width='7' stroke-linecap='round'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="../index.html">Future Skills <em>Academy</em></a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="member-of-technical-staff.html" aria-current="page">MTS</a>
+        <a href="high-agency.html">High Agency</a>
+        <a href="taste.html">Taste</a>
+        <a href="relationships.html">Relationships</a>
+        <a href="communication.html">Communication</a>
+        <a class="nav-cta" href="../index.html#join">Join a cohort</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="track-hero">
+        <div class="wrap">
+          <p class="track-kicker">Track 01 · Technical craft</p>
+          <h1>Member of Technical Staff</h1>
+          <p class="track-epigraph">
+            “The job is no longer writing every line. The job is being the person who knows what
+            should exist, gets it built at machine speed, and can tell when it is wrong.”
+          </p>
+          <div class="track-meta">
+            <span><strong>6</strong> modules</span>
+            <span><strong>18</strong> lessons</span>
+            <span><strong>8</strong> weeks part-time</span>
+            <span>Capstone: <strong>a shipped agentic product</strong></span>
+          </div>
+        </div>
+      </section>
+
+      <div class="track-progress">
+        <div class="wrap">
+          <span class="track-progress-label" data-progress-label>0 of 18 lessons complete</span>
+          <div class="track-progress-bar" aria-hidden="true">
+            <div class="track-progress-fill" data-progress-fill></div>
+          </div>
+        </div>
+      </div>
+
+      <section class="wrap">
+        <div class="track-intro-grid">
+          <div class="reveal">
+            <h2>Why this track exists</h2>
+            <p>
+              In 2026, a single engineer with a fleet of AI agents ships what a team of eight shipped
+              in 2022. But the leverage only flows to people who can specify precisely, decompose
+              problems, and verify results. The rest produce impressive-looking systems that fall
+              over in production.
+            </p>
+            <p>
+              This track trains both layers: the AI-native workflow — context engineering, agent
+              orchestration, evals — and the eternal fundamentals underneath it. Reading code,
+              debugging, systems thinking. The fundamentals are what let you supervise a machine
+              that is faster than you and confidently overrule it when it is wrong.
+            </p>
+            <p>
+              It is built for engineers, scientists, and technical founders who want to work the way
+              the best small teams already work: high trust in tools, zero trust in unverified
+              output.
+            </p>
+          </div>
+          <aside class="outcomes reveal">
+            <h3>You will be able to</h3>
+            <ul>
+              <li>Run AI coding agents as a team you direct, not a toy you poke</li>
+              <li>Write specifications precise enough that machines build the right thing</li>
+              <li>Design, build, and operate agentic systems with tools and guardrails</li>
+              <li>Build evals so quality is measured, not vibed</li>
+              <li>Debug and review at a level that catches what AI misses</li>
+              <li>Ship a real product end-to-end in two weeks</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="curriculum">
+        <div class="wrap">
+          <p class="section-note reveal">Curriculum</p>
+          <h2 class="section-title reveal">Six modules, from mindset to production.</h2>
+
+          <div class="module reveal">
+            <div class="module-head">
+              <span class="module-no">Module 1</span>
+              <h3>The AI-Native Mindset</h3>
+            </div>
+            <p class="module-summary">
+              Before tools and tactics: a correct mental model of what these systems are, what they
+              are reliably good at, and how the division of labor between you and them actually works.
+            </p>
+
+            <details class="lesson" data-lesson="mts-1-1">
+              <summary>
+                <span class="lesson-no">1.1</span>
+                <span class="lesson-title">What a model actually is</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  A language model is not a database and not a colleague. It is an extremely capable
+                  pattern engine that produces the most plausible continuation of the context you
+                  give it. Plausible is not the same as true, and the gap between the two is where
+                  every production incident lives. Once you internalize this, the model's behavior
+                  stops being mysterious: great with patterns it has seen, confident even when
+                  guessing, and entirely dependent on what you put in front of it.
+                </p>
+                <p>
+                  The practical consequence: you control quality through context and verification,
+                  not through hope. Everything else in this track follows from that one sentence.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Ask a model a question in your own specialty deep enough
+                  that you can grade the answer. Note exactly where it was right, where it was
+                  plausible-but-wrong, and what context would have prevented the error.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-1-2">
+              <summary>
+                <span class="lesson-no">1.2</span>
+                <span class="lesson-title">The new division of labor</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  The 2026 split is simple: machines draft, humans decide. AI handles the breadth —
+                  boilerplate, migrations, first drafts, test scaffolding, research sweeps. You own
+                  the depth: architecture, trade-offs, the definition of done, and anything where
+                  being wrong is expensive. The failure mode of juniors is doing work the machine
+                  should do. The failure mode of seniors is delegating decisions the machine should
+                  never own.
+                </p>
+                <p>
+                  Audit your week through this lens and you will usually find 40–60% of your hours
+                  sitting on the wrong side of the line.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> List everything you did at work last week. Mark each
+                  item: should this have been drafted by AI, decided by me, or both? Move one
+                  recurring task across the line this week.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-1-3">
+              <summary>
+                <span class="lesson-no">1.3</span>
+                <span class="lesson-title">Verification as a way of life</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  The defining professional habit of the AI era is cheap, systematic verification.
+                  Every artifact a machine hands you arrives with an invisible question mark, and
+                  your job is to design the fastest honest way to remove it: run the code, click the
+                  flow, check the citation, re-derive the number. Teams that ship fast with AI are
+                  not the ones who trust it most — they are the ones whose verification loop is so
+                  fast that trust is unnecessary.
+                </p>
+                <p>
+                  Verification effort should scale with blast radius. A typo fix needs a glance; a
+                  payment path needs tests, review, and a staged rollout — no matter who or what
+                  wrote it.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> For your current project, write down the three cheapest
+                  checks that would catch 80% of AI mistakes (a test command, a smoke flow, a diff
+                  review ritual). Make them a habit before accepting any generated change.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+          </div>
+
+          <div class="module reveal">
+            <div class="module-head">
+              <span class="module-no">Module 2</span>
+              <h3>Context Engineering</h3>
+            </div>
+            <p class="module-summary">
+              Model quality is mostly context quality. This module makes you deliberate about what
+              the machine knows at the moment it acts.
+            </p>
+
+            <details class="lesson" data-lesson="mts-2-1">
+              <summary>
+                <span class="lesson-no">2.1</span>
+                <span class="lesson-title">The context window is the workspace</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  A model can only reason over what is in front of it. Most "the AI is dumb"
+                  complaints are really "I gave it two vague sentences and none of the constraints I
+                  knew." Treat the context window like a new hire's first day: the relevant files,
+                  the conventions, the goal, the things that must not break. Curate hard — burying
+                  the signal under irrelevant dumps degrades output just as surely as starving it.
+                </p>
+                <p>
+                  The skill is selection: enough context to determine the right answer, little
+                  enough that the right answer is easy to find.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Take a task an AI recently did poorly for you. Rewrite
+                  the request with curated context — goal, constraints, examples, relevant code —
+                  and compare results side by side.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-2-2">
+              <summary>
+                <span class="lesson-no">2.2</span>
+                <span class="lesson-title">Prompts are specifications</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  The eternal skill hiding inside "prompting" is specification writing — the thing
+                  great engineers were always better at than everyone else. State the goal, the
+                  inputs and outputs, the edge cases, the non-goals, and what done looks like.
+                  Ambiguity in, ambiguity out: a model fills every gap in your spec with the most
+                  statistically common choice, which is rarely your choice.
+                </p>
+                <p>
+                  Write specs in plain language, with examples. An example of the desired output is
+                  worth ten paragraphs of description, for machines exactly as for contractors.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Write a one-page spec for a small feature — goal,
+                  constraints, edge cases, acceptance checks — and hand it to an AI agent untouched.
+                  Every clarifying question it needs to ask is a hole in your spec.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-2-3">
+              <summary>
+                <span class="lesson-no">2.3</span>
+                <span class="lesson-title">Grounding: retrieval, search, and sources</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  When the answer must be true rather than plausible, ground the model in real
+                  sources: your documents, your database, live search, your codebase. Retrieval is
+                  the general pattern — fetch the relevant facts, put them in context, and instruct
+                  the model to answer from them and say so when they don't contain the answer. Most
+                  hallucination problems are grounding problems wearing a scary name.
+                </p>
+                <p>
+                  Design rule: any claim that will be acted on should be traceable to a source a
+                  human can check in one click.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Build a tiny grounded assistant: ten of your own
+                  documents, retrieval into context, and answers with citations. Test it with five
+                  questions whose answers you know — including one the documents cannot answer.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+          </div>
+
+          <div class="module reveal">
+            <div class="module-head">
+              <span class="module-no">Module 3</span>
+              <h3>Building Agents</h3>
+            </div>
+            <p class="module-summary">
+              From chat to systems that act: tools, orchestration, and the engineering of things
+              that can fail on their own.
+            </p>
+
+            <details class="lesson" data-lesson="mts-3-1">
+              <summary>
+                <span class="lesson-no">3.1</span>
+                <span class="lesson-title">Tools, not chat</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  An agent is a model in a loop with tools: it reads state, decides, acts, observes
+                  the result, and repeats. The quality of an agent is mostly the quality of its
+                  tools — small, well-named, well-described actions with crisp inputs and honest
+                  error messages. A vague tool produces a flailing agent the same way a vague API
+                  produces buggy clients.
+                </p>
+                <p>
+                  Start embarrassingly small: one agent, three tools, one job. Reliability at small
+                  scope is the foundation everything larger is built on.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Build a single-purpose agent with no more than three
+                  tools that completes one real task you do weekly. Run it ten times and log every
+                  failure and its cause.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-3-2">
+              <summary>
+                <span class="lesson-no">3.2</span>
+                <span class="lesson-title">Decomposition and orchestration</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  Big tasks defeat single agents the way big functions defeat single programmers.
+                  The remedy is the same: decomposition. Split work into steps with checkable
+                  outputs, fan independent steps out in parallel, and keep the control flow in
+                  deterministic code while the model handles judgment inside each step. The
+                  orchestrator decides <em>what</em> happens; agents decide <em>how</em>.
+                </p>
+                <p>
+                  A good decomposition has a test for every seam — you can tell which step failed
+                  without reading every transcript.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Take a task too big for one prompt (a research report,
+                  a multi-file refactor). Draw the pipeline: steps, what each consumes and produces,
+                  and how you verify each seam. Then build it.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-3-3">
+              <summary>
+                <span class="lesson-no">3.3</span>
+                <span class="lesson-title">Guardrails and failure modes</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  Agents fail in characteristic ways: they loop, they overreach, they declare
+                  victory early, they take a destructive shortcut to satisfy the letter of the goal.
+                  Engineering for this means least-privilege tools, budgets on time and actions,
+                  human approval on irreversible steps, and logs you can actually replay. Assume the
+                  agent will eventually do the worst thing its permissions allow — then shrink the
+                  permissions.
+                </p>
+                <p>
+                  The goal is not an agent that never fails. It is a system where failure is
+                  bounded, visible, and cheap.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Red-team your own agent: write down the three worst
+                  things it could do with its current permissions, then change the design so the
+                  worst one is impossible and the other two are recoverable.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+          </div>
+
+          <div class="module reveal">
+            <div class="module-head">
+              <span class="module-no">Module 4</span>
+              <h3>Evals — Measuring What "Good" Means</h3>
+            </div>
+            <p class="module-summary">
+              "It looks right" does not scale. Evals are how AI-native teams turn quality from a
+              feeling into a number they can improve.
+            </p>
+
+            <details class="lesson" data-lesson="mts-4-1">
+              <summary>
+                <span class="lesson-no">4.1</span>
+                <span class="lesson-title">Why demos lie</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  Every AI feature demos well, because the demo is run by the person who built it,
+                  on inputs it handles. Production is run by strangers on inputs you never imagined.
+                  The gap between the two is invisible until you measure it — which is why teams
+                  without evals oscillate between overconfidence and panic, shipping on anecdotes
+                  and rolling back on anecdotes.
+                </p>
+                <p>
+                  An eval is just a held-out set of real inputs with graded expected outputs, run on
+                  every change. It is unit testing for behavior that is probabilistic instead of
+                  deterministic.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Collect twenty real inputs for an AI feature you use or
+                  build — including the ugly ones. Define what a passing answer looks like for each.
+                  You have just written your first eval set.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-4-2">
+              <summary>
+                <span class="lesson-no">4.2</span>
+                <span class="lesson-title">Building an eval loop</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  A working eval loop has four parts: a dataset of real cases, a grader (exact
+                  match, assertions, or a model judging against a rubric), a score you track over
+                  time, and a habit — every prompt change, model swap, or pipeline edit runs the
+                  evals before it ships. With that loop, improving the system becomes engineering;
+                  without it, it's superstition.
+                </p>
+                <p>
+                  Grade what matters, not what is easy: correctness first, then tone, format, and
+                  cost. And keep feeding production failures back into the dataset — that is where
+                  evals earn their keep.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Automate yesterday's twenty cases into a script that
+                  outputs a score. Change your prompt and watch the number move. Now make a change
+                  that improves the score without breaking any previously passing case.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-4-3">
+              <summary>
+                <span class="lesson-no">4.3</span>
+                <span class="lesson-title">Reviewing machine-written code</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  AI code review is a different sport from human code review. The machine does not
+                  get tired or skip the boring parts — but it confidently invents APIs, silently
+                  drops requirements, and writes plausible handling for error paths that can never
+                  occur while missing the one that will. Review for intent first (does this do what
+                  was asked?), then for the classic AI tells: unverified assumptions, dead code
+                  dressed as robustness, and tests that assert the bug.
+                </p>
+                <p>
+                  Never approve a diff you wouldn't be able to explain line by line to a colleague.
+                  That standard is what keeps velocity from turning into debt.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Have an AI implement a small feature, then review the
+                  diff with a written checklist: requirements covered, APIs verified to exist,
+                  errors handled honestly, tests that would fail if the feature broke.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+          </div>
+
+          <div class="module reveal">
+            <div class="module-head">
+              <span class="module-no">Module 5</span>
+              <h3>Shipping at Machine Speed</h3>
+            </div>
+            <p class="module-summary">
+              Leverage means nothing if it dies in a prototype folder. This module is about the path
+              from idea to running in front of users — repeatedly, safely, fast.
+            </p>
+
+            <details class="lesson" data-lesson="mts-5-1">
+              <summary>
+                <span class="lesson-no">5.1</span>
+                <span class="lesson-title">The one-day prototype</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  In 2026 the correct response to "would this work?" is almost never a meeting — it
+                  is a prototype by tomorrow morning. AI collapsed the cost of finding out. The
+                  skill is scoping: cut the idea down to the single riskiest assumption, build only
+                  what tests it, and fake everything else. A prototype is a question, not a product;
+                  it succeeds by producing an answer, even when the answer is no.
+                </p>
+                <p>
+                  People who prototype weekly develop an unfair advantage: their opinions are backed
+                  by evidence while everyone else's are backed by slides.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Pick an idea you have debated for over a month. Define
+                  its riskiest assumption, then build the smallest thing that tests it — in one day,
+                  using every AI tool you have.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-5-2">
+              <summary>
+                <span class="lesson-no">5.2</span>
+                <span class="lesson-title">From demo to production</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  The distance from demo to production has not collapsed — it has just become legible.
+                  It is a checklist, not a mystery: handle the malformed input, add auth, bound the
+                  costs, log enough to debug a 3 a.m. failure, decide what happens when the model
+                  is down or slow or wrong. AI can write most of this too, but only if you ask —
+                  models optimize for the happy path unless the spec says otherwise.
+                </p>
+                <p>
+                  Ship behind a flag, to a small slice, with a way back. Boring deployment hygiene
+                  is what makes aggressive speed safe.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Take your prototype and write its production gap list —
+                  everything between here and real users. Estimate each item, then knock out the top
+                  three with AI assistance.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-5-3">
+              <summary>
+                <span class="lesson-no">5.3</span>
+                <span class="lesson-title">Operating AI systems</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  An AI system in production degrades differently from normal software: the code is
+                  unchanged but the world shifts — new input patterns, model updates, a data source
+                  that quietly changed format. Operating one means watching quality, not just
+                  uptime: eval scores on live traffic samples, cost per request, latency, and the
+                  rate of "the AI said something weird" reports. Every incident becomes a new eval
+                  case; that is the flywheel.
+                </p>
+                <p>
+                  Budget for it: a system you cannot afford to watch is a system you cannot afford
+                  to run.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Define a one-page runbook for an AI feature: the three
+                  quality metrics you watch, alert thresholds, the rollback procedure, and where new
+                  failure cases get filed.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+          </div>
+
+          <div class="module reveal">
+            <div class="module-head">
+              <span class="module-no">Module 6</span>
+              <h3>Eternal Fundamentals</h3>
+            </div>
+            <p class="module-summary">
+              The skills that made engineers great in 1976 and will in 2076. AI raises their value,
+              because they are exactly what supervision of fast machines requires.
+            </p>
+
+            <details class="lesson" data-lesson="mts-6-1">
+              <summary>
+                <span class="lesson-no">6.1</span>
+                <span class="lesson-title">Reading code is the superpower now</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  When machines write most of the code, the binding human skill flips from writing
+                  to reading. Reading fast and deep — tracing data flow, spotting the assumption a
+                  function silently makes, sensing where the design fights itself — is what lets you
+                  review ten times more code than you write. The engineers who thrive are the ones
+                  for whom a 500-line diff is an afternoon, not a week.
+                </p>
+                <p>
+                  Reading is trainable the same way writing is: deliberately, on excellent material,
+                  with questions in hand.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Spend 45 minutes reading a well-regarded open-source
+                  codebase in your stack. Write down its three best design decisions and one you
+                  would challenge — and why.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-6-2">
+              <summary>
+                <span class="lesson-no">6.2</span>
+                <span class="lesson-title">Debugging as epistemology</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  Debugging is the purest form of the verification mindset: form a hypothesis, design
+                  the cheapest experiment that could kill it, run it, update. It is the scientific
+                  method at keyboard speed, and it transfers to everything — broken pipelines, weird
+                  agent behavior, business numbers that don't add up. AI is a phenomenal debugging
+                  partner, but only for the person who can state symptoms precisely and judge
+                  proposed causes against evidence.
+                </p>
+                <p>
+                  The anti-pattern of the era is "ask the AI to fix it" in a loop until the error
+                  message changes. That is not debugging; it is gambling with extra steps.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Next bug you hit, write the hypothesis before touching
+                  the code: "I believe X because Y; if true, Z will show it." Run exactly that
+                  check. Count how many hypotheses the bug takes.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+
+            <details class="lesson" data-lesson="mts-6-3">
+              <summary>
+                <span class="lesson-no">6.3</span>
+                <span class="lesson-title">Systems thinking and the courage to be simple</span>
+                <span class="lesson-state" aria-hidden="true">✓</span>
+                <span class="lesson-chevron" aria-hidden="true">▾</span>
+              </summary>
+              <div class="lesson-body">
+                <p>
+                  When generating code is free, complexity becomes the silent killer — every
+                  component you add is cheap to create and expensive forever. Systems thinking is
+                  seeing the whole: where state lives, what talks to what, which dependency will
+                  hurt you in a year. The discipline that follows from it is subtraction. The best
+                  AI-native engineers are conspicuous for how little they build: fewer services,
+                  fewer layers, fewer clever abstractions.
+                </p>
+                <p>
+                  Ask of every addition: what would have to be true for us to delete this in six
+                  months? If nothing, you are building a permanent liability.
+                </p>
+                <p class="practice">
+                  <strong>Practice.</strong> Diagram your current system from memory — boxes,
+                  arrows, state. Find one component that exists for historical reasons rather than
+                  current ones, and write the one-paragraph case for deleting it.
+                </p>
+                <button class="mark-done" type="button">Mark complete</button>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <div class="capstone-panel reveal">
+          <div>
+            <p class="section-note">Capstone</p>
+            <h2>Ship an agentic product in fourteen days.</h2>
+            <p>
+              Alone or in a pair, take a real problem — yours, your employer's, or a pilot
+              customer's — from spec to a deployed, operating system with users. The constraint is
+              the lesson: machine-speed execution with human-grade judgment.
+            </p>
+          </div>
+          <ol>
+            <li>Days 1–2: written spec with risks, non-goals, and acceptance checks.</li>
+            <li>Days 3–5: prototype that tests the riskiest assumption with real users.</li>
+            <li>Days 6–10: production build — guardrails, evals, observability.</li>
+            <li>Days 11–14: ship, operate, and present the system plus its eval scores.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="wrap" style="padding-top: 0">
+        <nav class="track-nav" aria-label="Track navigation">
+          <a href="communication.html">
+            <span>← Previous track</span>
+            <strong>Communication</strong>
+          </a>
+          <a class="next" href="high-agency.html">
+            <span>Next track →</span>
+            <strong>High Agency</strong>
+          </a>
+        </nav>
+      </section>
+    </main>
+
+    <footer>
+      <span>Future Skills Academy</span>
+      <span>Track 01 — Member of Technical Staff</span>
+      <span>Stockholm / 2026</span>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

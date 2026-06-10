@@ -5,105 +5,258 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Future Skills Academy is a quiet, rigorous academy for applied AI, automation, and future work."
+      content="Future Skills Academy teaches the five skills that compound in an AI-native world: technical craft, high agency, taste, relationships, and communication."
     />
-    <title>Future Skills Academy</title>
+    <title>Future Skills Academy — The skills that compound in 2026</title>
     <link
       rel="icon"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23322432'/%3E%3Cpath d='M17 42C30 17 48 14 50 18C40 22 33 31 28 46' fill='none' stroke='%23c23c56' stroke-width='7' stroke-linecap='round'/%3E%3C/svg%3E"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="progress" aria-hidden="true"></div>
-    <div class="grain" aria-hidden="true"></div>
-
     <header class="site-header" data-header>
-      <a class="quiet-brand" href="#top" aria-label="Future Skills Academy home">Future Skills</a>
-      <nav aria-label="Primary navigation">
-        <a href="#path">Path</a>
-        <a href="#disciplines">Courses</a>
-        <a href="#council">Council</a>
+      <a class="brand" href="index.html">Future Skills <em>Academy</em></a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#thesis">Thesis</a>
+        <a href="#tracks">Tracks</a>
+        <a href="#method">Method</a>
+        <a class="nav-cta" href="#join">Join a cohort</a>
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="logo-altar reveal">
-          <h1 id="hero-title" class="sr-only">Future Skills Academy</h1>
-          <img
-            class="hero-logo"
-            src="assets/future-skills-logo-reference.png"
-            alt="Future Skills Academy logo with a rose and carmine brush stroke"
-          />
-          <a href="#council" class="seal-link" aria-label="Go to founding council invitation">
-            <span>Enter</span>
-          </a>
+    <main>
+      <section class="hero wrap">
+        <img
+          class="hero-logo reveal"
+          src="assets/future-skills-logo-transparent.png"
+          alt="Future Skills Academy logo — a rose and carmine brush stroke"
+        />
+        <h1 class="reveal">The skills that <span class="accent">compound</span> when AI does the rest.</h1>
+        <p class="hero-lede reveal">
+          AI made execution cheap. What remains scarce is the human layer: technical judgment, agency,
+          taste, trust, and clarity. Future Skills Academy trains those five — the eternal skills,
+          practiced the way the best people work in 2026.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn" href="#tracks">Explore the five tracks</a>
+          <a class="btn ghost" href="#thesis">Read the thesis</a>
         </div>
       </section>
 
-      <section class="threshold" id="path" aria-labelledby="path-title">
-        <div class="threshold-line reveal" aria-hidden="true"></div>
-        <div class="threshold-copy reveal">
-          <p class="section-note">The path</p>
-          <h2 id="path-title">Learn slowly. Build precisely. Serve wisely.</h2>
+      <hr class="rule" />
+
+      <section class="thesis wrap" id="thesis">
+        <p class="section-note reveal">The thesis</p>
+        <div class="thesis-grid">
+          <blockquote class="reveal">
+            When intelligence is abundant, <span class="accent">judgment</span> is the bottleneck.
+          </blockquote>
+          <ul class="thesis-points">
+            <li class="reveal">
+              <strong>Execution is no longer the moat.</strong>
+              <p>
+                Code, copy, designs, and decks now take hours instead of weeks. Anyone can produce.
+                The difference between people is no longer output — it is what they choose to build,
+                what they refuse to ship, and who trusts them.
+              </p>
+            </li>
+            <li class="reveal">
+              <strong>The new unit of work is direction.</strong>
+              <p>
+                In 2026 the best people work like editors-in-chief of a fleet of AI systems: they set
+                intent, delegate aggressively, verify ruthlessly, and take responsibility for the result.
+              </p>
+            </li>
+            <li class="reveal">
+              <strong>Eternal skills, modern practice.</strong>
+              <p>
+                Judgment, agency, taste, trust, and clarity have always mattered. What changed is the
+                leverage behind them. We teach the timeless skill and the 2026 way of practicing it —
+                together, because neither works alone.
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
 
-      <section class="triad" aria-label="Academy principles">
-        <article class="reveal">
-          <span>01</span>
-          <h3>Attention</h3>
-        </article>
-        <article class="reveal">
-          <span>02</span>
-          <h3>Craft</h3>
-        </article>
-        <article class="reveal">
-          <span>03</span>
-          <h3>Responsibility</h3>
-        </article>
-      </section>
+      <section class="pillars" id="tracks">
+        <div class="wrap">
+          <p class="section-note reveal">The five tracks</p>
+          <h2 class="section-title reveal">One academy. Five skills that do not expire.</h2>
+          <p class="section-lede reveal">
+            Each track is six modules of lessons, drills, and real work — designed to be completed in
+            eight weeks alongside a job. Your progress is saved in your browser as you go.
+          </p>
 
-      <section class="disciplines" id="disciplines" aria-labelledby="disciplines-title">
-        <div class="discipline-mark" aria-hidden="true"></div>
-        <div class="discipline-copy reveal">
-          <p class="section-note">Courses</p>
-          <h2 id="disciplines-title">Three quiet doors into high-leverage AI work.</h2>
-          <div class="course-index" aria-label="Course subpages">
-            <a href="courses/ai-automation-developer.html">
-              <span>01</span>
-              <strong>AI Automation Developer</strong>
-              <em>Agents, RAG, integrations, workflow systems</em>
+          <div class="pillar-grid">
+            <a class="pillar reveal" href="tracks/member-of-technical-staff.html">
+              <span class="pillar-no">Track 01 <span aria-hidden="true">⌁</span></span>
+              <h3>Member of Technical Staff</h3>
+              <p class="pillar-domain">Technical craft · AI-native engineering</p>
+              <p class="pillar-desc">
+                Build real systems with AI as your engineering team. Context engineering, agents,
+                evals, verification — and the fundamentals that make you the person who can tell
+                when the machine is wrong.
+              </p>
+              <div class="pillar-meta">
+                <span class="pillar-progress" data-track-progress="mts" data-track-total="18">6 modules · 18 lessons</span>
+                <span class="go">Enter →</span>
+              </div>
             </a>
-            <a href="courses/ai-cybersecurity-operations.html">
-              <span>02</span>
-              <strong>AI & Cybersecurity Operations</strong>
-              <em>Secure adoption, monitoring, governance</em>
+
+            <a class="pillar reveal" href="tracks/high-agency.html">
+              <span class="pillar-no">Track 02 <span aria-hidden="true">⌁</span></span>
+              <h3>High Agency</h3>
+              <p class="pillar-domain">Leadership · Ownership · Decisions</p>
+              <p class="pillar-desc">
+                The skill of making things happen without permission. Decision-making under
+                uncertainty, leverage, leading AI-augmented teams, and the courage to own outcomes
+                no one assigned you.
+              </p>
+              <div class="pillar-meta">
+                <span class="pillar-progress" data-track-progress="agency" data-track-total="18">6 modules · 18 lessons</span>
+                <span class="go">Enter →</span>
+              </div>
             </a>
-            <a href="courses/industrial-ai-technician.html">
-              <span>03</span>
-              <strong>Industrial AI Technician</strong>
-              <em>Production data, automation, resilient operations</em>
+
+            <a class="pillar reveal" href="tracks/taste.html">
+              <span class="pillar-no">Track 03 <span aria-hidden="true">⌁</span></span>
+              <h3>Taste</h3>
+              <p class="pillar-domain">Design · UX · Quality judgment</p>
+              <p class="pillar-desc">
+                When anyone can generate a thousand options, the rare skill is knowing which one is
+                good. Train your eye, learn the eternal rules of craft, and direct AI like a design
+                lead — not a slot machine.
+              </p>
+              <div class="pillar-meta">
+                <span class="pillar-progress" data-track-progress="taste" data-track-total="18">6 modules · 18 lessons</span>
+                <span class="go">Enter →</span>
+              </div>
+            </a>
+
+            <a class="pillar reveal" href="tracks/relationships.html">
+              <span class="pillar-no">Track 04 <span aria-hidden="true">⌁</span></span>
+              <h3>Relationships</h3>
+              <p class="pillar-domain">Sales · Customers · Trust</p>
+              <p class="pillar-desc">
+                In a world of synthetic everything, a human who listens, keeps promises, and plays
+                long games is the scarcest asset. Discovery, founder-led sales, and relationships
+                that compound for decades.
+              </p>
+              <div class="pillar-meta">
+                <span class="pillar-progress" data-track-progress="rel" data-track-total="18">6 modules · 18 lessons</span>
+                <span class="go">Enter →</span>
+              </div>
+            </a>
+
+            <a class="pillar reveal" href="tracks/communication.html">
+              <span class="pillar-no">Track 05 <span aria-hidden="true">⌁</span></span>
+              <h3>Communication</h3>
+              <p class="pillar-domain">Writing · Speaking · Clarity</p>
+              <p class="pillar-desc">
+                Fluent words are free now; clarity is not. Think in writing, speak so it lands,
+                model your audience — human or machine — and be the person whose messages are
+                always worth opening.
+              </p>
+              <div class="pillar-meta">
+                <span class="pillar-progress" data-track-progress="comm" data-track-total="18">6 modules · 18 lessons</span>
+                <span class="go">Enter →</span>
+              </div>
             </a>
           </div>
-          <p class="quiet-note">Planned YH-ready concepts. Employer council forming now.</p>
         </div>
       </section>
 
-      <section class="council" id="council" aria-labelledby="council-title">
-        <div class="council-inner reveal">
-          <p class="section-note">Founding circle</p>
-          <h2 id="council-title">Bring the work the future depends on.</h2>
-          <a href="mailto:hello@futureskills.academy?subject=Future%20Skills%20Academy%20founding%20circle">
-            Join the circle
-          </a>
+      <section class="method wrap" id="method">
+        <p class="section-note reveal">The method</p>
+        <h2 class="section-title reveal">Learn it. Drill it. Ship it.</h2>
+        <p class="section-lede reveal">
+          No passive video libraries. Every lesson ends in practice, every module ends in real work,
+          and every track ends in a capstone you can show.
+        </p>
+        <div class="method-grid">
+          <div class="method-step reveal">
+            <span>01 — Learn</span>
+            <h3>Short, dense lessons</h3>
+            <p>
+              Each lesson is a few minutes of reading that changes how you work the same day. The
+              ideas are old; the application is 2026.
+            </p>
+          </div>
+          <div class="method-step reveal">
+            <span>02 — Drill</span>
+            <h3>Practice on real stakes</h3>
+            <p>
+              Every lesson carries a practice assignment that uses your actual job, project, or
+              customers as the training ground — never toy exercises.
+            </p>
+          </div>
+          <div class="method-step reveal">
+            <span>03 — Ship</span>
+            <h3>A capstone you can show</h3>
+            <p>
+              Each track closes with a two-week capstone: a shipped system, a led project, a
+              redesigned product, or a won relationship. Proof, not certificates.
+            </p>
+          </div>
         </div>
+      </section>
+
+      <section class="principles">
+        <div class="wrap">
+          <p class="section-note reveal">House principles</p>
+          <h2 class="section-title reveal">What we hold to be eternal.</h2>
+          <div class="principle-grid">
+            <div class="principle reveal">
+              <h3>Verify everything</h3>
+              <p>
+                Abundant intelligence produces abundant plausible nonsense. The professional habit
+                of 2026 is checking — outputs, claims, and your own assumptions.
+              </p>
+            </div>
+            <div class="principle reveal">
+              <h3>Own the outcome</h3>
+              <p>
+                You can delegate the work to people or machines. You can never delegate the
+                responsibility. Agency means the result has your name on it.
+              </p>
+            </div>
+            <div class="principle reveal">
+              <h3>Play long games</h3>
+              <p>
+                Quality, reputation, and trust compound slowly and collapse instantly. Every track
+                here optimizes for the decade, not the demo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta wrap" id="join">
+        <p class="section-note reveal">Founding cohort</p>
+        <h2 class="section-title reveal">Build the skills the future cannot automate away.</h2>
+        <p class="section-lede reveal">
+          The curriculum is open — start any track right now. To join a guided cohort with live
+          critique, peers, and accountability, write to us.
+        </p>
+        <a
+          class="btn reveal"
+          href="mailto:hello@futureskills.academy?subject=Future%20Skills%20Academy%20founding%20cohort"
+          >Join the founding cohort</a
+        >
       </section>
     </main>
 
     <footer>
       <span>Future Skills Academy</span>
+      <span>Member of Technical Staff · High Agency · Taste · Relationships · Communication</span>
       <span>Stockholm / 2026</span>
     </footer>
 
