@@ -11,7 +11,9 @@
   var SUBSCRIBED_KEY = "fsa-subscribed";
 
   function track(eventName) {
-    if (window.plausible) window.plausible(eventName);
+    if (window.goatcounter && window.goatcounter.count) {
+      window.goatcounter.count({ path: eventName, event: true });
+    }
   }
 
   function loadProgress() {
