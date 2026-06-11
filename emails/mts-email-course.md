@@ -1,8 +1,9 @@
-# MTS Email Course — 18-email drip sequence for Kit
+# MTS Email Course — 18-email drip sequence for MailerLite
 
-Setup in Kit: **Automate → Visual Automations** → trigger: "Joins form: MTS email course"
-→ add a **Sequence** with the 18 emails below. Send cadence: **Tuesday + Thursday, 09:00**
-(email 1 sends immediately on signup). Sender: Birger Moëll · hello@futureskillsacademy.ai.
+Setup in MailerLite: **Automations → Create workflow** → trigger: "When a subscriber joins
+a group" → group "MTS email course" → then chain: Email (lesson 1) → Delay 3 days →
+Email (lesson 2) → Delay 3 days → … through email 18. Sender:
+Birger Moëll · hello@futureskillsacademy.ai (verify the domain first under Settings → Domains).
 Add one personal line at the top of each email before publishing — that's the voice the
 sequence is missing by design.
 

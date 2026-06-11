@@ -2,10 +2,10 @@
 (function () {
   "use strict";
 
-  /* Kit (ConvertKit) email course. Set the form ID to activate all signup UI.
-     Create the form in Kit (Grow → Landing Pages & Forms → inline), then paste
-     the numeric form ID here. While empty, all signup blocks stay hidden. */
-  var KIT_FORM_ID = "";
+  /* MailerLite email course form (account 2425863, form "MTS email course").
+     While empty, all signup blocks stay hidden. */
+  var SUBSCRIBE_URL =
+    "https://assets.mailerlite.com/jsonp/2425863/forms/189985464562746867/subscribe";
 
   var STORAGE_KEY = "fsa-progress-v1";
   var SUBSCRIBED_KEY = "fsa-subscribed";
@@ -90,8 +90,10 @@
       button.disabled = true;
       button.textContent = "Signing you up…";
       var data = new FormData();
-      data.append("email_address", email);
-      fetch("https://app.kit.com/forms/" + KIT_FORM_ID + "/subscriptions", {
+      data.append("fields[email]", email);
+      data.append("ml-submit", "1");
+      data.append("anticsrf", "true");
+      fetch(SUBSCRIBE_URL, {
         method: "POST",
         headers: { Accept: "application/json" },
         body: data,
@@ -99,7 +101,7 @@
         .then(function (response) {
           if (!response.ok) throw new Error("subscribe failed");
           form.outerHTML =
-            '<p class="email-capture-success">Check your inbox — lesson one is on its way. (If it isn’t there, look in spam and drag us out.)</p>';
+            '<p class="email-capture-success">Almost there — check your inbox and confirm your email. Lesson one follows right after. (Not there? Check spam and drag us out.)</p>';
           markSubscribed();
           track("Email Signup");
         })
@@ -110,7 +112,7 @@
     });
   }
 
-  if (KIT_FORM_ID) {
+  if (SUBSCRIBE_URL) {
     document.querySelectorAll("[data-email-capture]").forEach(function (block) {
       if (isSubscribed()) return;
       block.classList.add("is-enabled");
@@ -122,7 +124,7 @@
 
   /* after the first lesson completion, offer the email course inline — once */
   function injectPostCompleteCapture(lesson) {
-    if (!KIT_FORM_ID || isSubscribed()) return;
+    if (!SUBSCRIBE_URL || isSubscribed()) return;
     if (document.querySelector("[data-post-complete-capture]")) return;
     var template = document.getElementById("post-complete-capture");
     if (!template) return;
