@@ -43,7 +43,7 @@
         <a href="taste.html">Taste</a>
         <a href="relationships.html">Relationships</a>
         <a href="communication.html">Communication</a>
-        <a class="nav-cta" href="../index.html#join">Join a cohort</a>
+        <a class="nav-cta" href="../for-companies.html">Train your team</a>
       </nav>
     </header>
 
@@ -62,6 +62,9 @@
             <span><strong>8</strong> weeks part-time</span>
             <span>Capstone: <strong>a shipped agentic product</strong></span>
           </div>
+          <p class="email-capture-link" data-email-capture>
+            <a href="#email-course">Prefer it paced? Get this track as a free email course →</a>
+          </p>
         </div>
       </section>
 
@@ -212,6 +215,25 @@
                 <button class="mark-done" type="button">Mark complete</button>
               </div>
             </details>
+          </div>
+
+          <div class="email-capture" id="email-course" data-email-capture>
+            <h3>Get this track in your inbox</h3>
+            <p>
+              Two lessons a week for nine weeks, each with its practice assignment — paced so you
+              actually finish. Free, unsubscribe anytime.
+            </p>
+            <form class="email-capture-form">
+              <input
+                type="email"
+                name="email_address"
+                required
+                placeholder="you@company.com"
+                aria-label="Email address"
+              />
+              <button class="btn" type="submit">Start the email course</button>
+            </form>
+            <p class="email-capture-note">18 lessons. No other emails unless you ask for them.</p>
           </div>
 
           <div class="module reveal">
@@ -503,6 +525,25 @@
             </details>
           </div>
 
+          <div class="email-capture" data-email-capture>
+            <h3>Twelve lessons to go — want them delivered?</h3>
+            <p>
+              Get the rest of the track as a free email course: two lessons a week, with the
+              practice that makes them stick.
+            </p>
+            <form class="email-capture-form">
+              <input
+                type="email"
+                name="email_address"
+                required
+                placeholder="you@company.com"
+                aria-label="Email address"
+              />
+              <button class="btn" type="submit">Send me the rest</button>
+            </form>
+            <p class="email-capture-note">18 lessons. No other emails unless you ask for them.</p>
+          </div>
+
           <div class="module reveal">
             <div class="module-head">
               <span class="module-no">Module 5</span>
@@ -738,6 +779,28 @@
       <span>Stockholm / 2026</span>
     </footer>
 
+    <template id="post-complete-capture">
+      <div class="email-capture">
+        <h3>One down. Want the next one in your inbox?</h3>
+        <p>
+          Get this track as a free email course — two lessons a week with their practice
+          assignments, paced so you finish all eighteen.
+        </p>
+        <form class="email-capture-form">
+          <input
+            type="email"
+            name="email_address"
+            required
+            placeholder="you@company.com"
+            aria-label="Email address"
+          />
+          <button class="btn" type="submit">Send me lesson two</button>
+        </form>
+        <p class="email-capture-note">18 lessons. No other emails unless you ask for them.</p>
+      </div>
+    </template>
+
+    <script defer data-domain="futureskillsacademy.ai" src="https://plausible.io/js/script.js"></script>
     <script src="../script.js"></script>
   </body>
 </html>

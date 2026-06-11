@@ -837,6 +837,200 @@ footer {
   }
 }
 
+/* email capture */
+
+.email-capture {
+  display: none;
+  margin: 28px 0 8px;
+  padding: clamp(24px, 3vw, 36px);
+  border: 1px solid rgba(189, 40, 72, 0.3);
+  border-radius: 18px;
+  background: var(--paper);
+}
+
+.email-capture.is-enabled {
+  display: block;
+}
+
+.email-capture h3 {
+  margin: 0 0 6px;
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.email-capture p {
+  margin: 0 0 18px;
+  max-width: 56ch;
+  color: var(--plum-soft);
+  font-size: 15.5px;
+}
+
+.email-capture-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.email-capture-form input[type="email"] {
+  flex: 1 1 240px;
+  padding: 12px 18px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--bone);
+  color: var(--plum);
+  font-family: var(--sans);
+  font-size: 15px;
+}
+
+.email-capture-form input[type="email"]:focus {
+  outline: 2px solid var(--carmine);
+  outline-offset: 1px;
+  border-color: transparent;
+}
+
+.email-capture-note {
+  margin: 12px 0 0 !important;
+  font-size: 12.5px !important;
+  color: var(--plum-faint) !important;
+}
+
+.email-capture-success {
+  margin: 0;
+  padding: 6px 0;
+  color: var(--carmine-deep);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.email-capture-link {
+  display: none;
+}
+
+.email-capture-link.is-enabled {
+  display: block;
+  margin: 18px 0 0;
+}
+
+.email-capture-link a {
+  color: var(--carmine);
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid rgba(189, 40, 72, 0.3);
+}
+
+.lesson-body .email-capture {
+  margin-top: 20px;
+}
+
+/* offer cards (for-companies) */
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: clamp(28px, 4vw, 48px);
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: clamp(24px, 3vw, 36px);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--paper);
+}
+
+.offer.is-featured {
+  border-color: rgba(189, 40, 72, 0.45);
+  box-shadow: 0 18px 40px rgba(51, 36, 50, 0.07);
+}
+
+.offer h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.offer .offer-tag {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.26em;
+  color: var(--carmine);
+}
+
+.offer .offer-price {
+  font-family: var(--serif);
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.offer .offer-price em {
+  font-style: normal;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--plum-faint);
+}
+
+.offer p {
+  margin: 0;
+  color: var(--plum-soft);
+  font-size: 15.5px;
+  flex-grow: 1;
+}
+
+.offer ul {
+  margin: 0;
+  padding: 0 0 0 18px;
+  color: var(--plum-soft);
+  font-size: 15px;
+  display: grid;
+  gap: 8px;
+}
+
+.agenda {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(22px, 3vw, 40px);
+  margin-top: clamp(24px, 3vw, 40px);
+}
+
+.agenda-block {
+  padding-top: 16px;
+  border-top: 2px solid var(--plum);
+}
+
+.agenda-block span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  letter-spacing: 0.26em;
+  color: var(--carmine);
+  text-transform: uppercase;
+}
+
+.agenda-block h3 {
+  margin: 0 0 8px;
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.agenda-block p {
+  margin: 0;
+  color: var(--plum-soft);
+  font-size: 15px;
+}
+
+@media (max-width: 1023px) {
+  .offer-grid,
+  .agenda {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* capstone */
 
 .capstone-panel {
