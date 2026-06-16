@@ -1,0 +1,80 @@
+<!doctype html>
+<!-- LinkedIn company cover. Render at 2256x382 (2x of 1128x191):
+     chrome --headless --screenshot=assets/linkedin-cover.png --window-size=2256,382 assets/linkedin-cover-template.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * { margin: 0; box-sizing: border-box; }
+      body {
+        width: 2256px;
+        height: 382px;
+        overflow: hidden;
+        background: #fbf8f4;
+        font-family: "Helvetica Neue", Inter, system-ui, sans-serif;
+        color: #332432;
+        position: relative;
+      }
+      /* logo-safe zone is lower-left; keep content starting from ~420px */
+      .content {
+        position: absolute;
+        left: 430px;
+        top: 0;
+        height: 100%;
+        width: 1280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+      }
+      .kicker {
+        font-size: 28px;
+        letter-spacing: 0.36em;
+        text-transform: uppercase;
+        color: #bd2848;
+      }
+      h1 {
+        font-family: "Fraunces", Georgia, serif;
+        font-size: 86px;
+        line-height: 1.08;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+      }
+      h1 em { color: #bd2848; }
+      .domain {
+        font-size: 27px;
+        letter-spacing: 0.1em;
+        color: rgba(51, 36, 50, 0.55);
+      }
+      .brush {
+        position: absolute;
+        right: 110px;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 300px;
+      }
+      /* thin accent rule along the very top */
+      .topbar {
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 8px;
+        background: #bd2848;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topbar"></div>
+    <div class="content">
+      <div class="kicker">Future Skills Academy</div>
+      <h1>The skills that <em>compound</em> when AI does the rest.</h1>
+      <div class="domain">futureskillsacademy.ai</div>
+    </div>
+    <img class="brush" src="future-skills-brush.png" alt="" />
+  </body>
+</html>
