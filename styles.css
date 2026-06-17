@@ -70,7 +70,8 @@ img {
 .wrap {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 0 clamp(20px, 5vw, 48px);
+  padding-left: clamp(20px, 5vw, 48px);
+  padding-right: clamp(20px, 5vw, 48px);
 }
 
 /* ---------- header ---------- */
