@@ -164,6 +164,13 @@
 
     var button = lesson.querySelector(".mark-done");
     if (!button) return;
+    /* keep the URL pointing at the open lesson so it can be copied/shared */
+    lesson.addEventListener("toggle", function () {
+      if (lesson.open && lesson.id && history.replaceState) {
+        history.replaceState(null, "", "#" + lesson.id);
+      }
+    });
+
     button.textContent = progress[id] ? "Completed ✓" : "Mark complete";
     button.addEventListener("click", function () {
       var isDone = !progress[id];
@@ -182,6 +189,40 @@
   });
 
   refreshTrackProgress();
+
+  /* deep links: open + scroll to a lesson when the URL has its hash
+     (e.g. tracks/high-agency.html#agency-1-1), on load and on hash change */
+  function revealLessonFromHash(smooth) {
+    var id = decodeURIComponent((location.hash || "").slice(1));
+    if (!id) return;
+    var el = document.getElementById(id);
+    if (!el || !el.classList || !el.classList.contains("lesson")) return;
+    /* clear the fade-in offset on the lesson and its reveal ancestors so the
+       scroll target doesn't shift mid-animation */
+    var node = el;
+    while (node) {
+      if (node.classList && node.classList.contains("reveal")) {
+        node.classList.add("is-visible");
+      }
+      node = node.parentElement;
+    }
+    el.open = true;
+    requestAnimationFrame(function () {
+      var offset = (header ? header.offsetHeight : 72) + 20;
+      var bar = document.querySelector(".track-progress");
+      if (bar) offset += bar.offsetHeight;
+      var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top: top, behavior: smooth ? "smooth" : "auto" });
+    });
+  }
+
+  window.addEventListener("hashchange", function () {
+    revealLessonFromHash(true);
+  });
+  window.addEventListener("load", function () {
+    revealLessonFromHash(false);
+  });
+  revealLessonFromHash(false);
 
   /* landing page: per-pillar progress counters */
   document.querySelectorAll("[data-track-progress]").forEach(function (el) {
