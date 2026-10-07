@@ -1,0 +1,461 @@
+slug,file,title,playlist,seconds,description,tags
+01-judgment-is-the-bottleneck,videos/01-judgment-is-the-bottleneck.mp4,"When intelligence is abundant, judgment is the bottleneck",Start here,55,"AI made execution cheap. What stays scarce is the human layer: judgment, agency, taste, trust and clarity.
+
+Future Skills Academy teaches the five skills that compound in an AI-native world. Free lessons and practice: https://futureskillsacademy.ai
+
+#Shorts #AI #FutureSkills","AI skills, future skills, AI, learning, career, Future Skills Academy"
+02-five-skills-that-dont-expire,videos/02-five-skills-that-dont-expire.mp4,Five skills that don't expire in the age of AI,Start here,56,"The five tracks of Future Skills Academy and what each one trains.
+
+Future Skills Academy teaches the five skills that compound in an AI-native world. Free lessons and practice: https://futureskillsacademy.ai
+
+#Shorts #AI #FutureSkills","AI skills, future skills, AI, learning, career, Future Skills Academy"
+03-learn-drill-ship,videos/03-learn-drill-ship.mp4,Learn it. Drill it. Ship it.,Start here,46,"How every lesson, module and track works: short lessons, practice on real stakes, and a capstone you can show.
+
+Future Skills Academy teaches the five skills that compound in an AI-native world. Free lessons and practice: https://futureskillsacademy.ai
+
+#Shorts #AI #FutureSkills","AI skills, future skills, AI, learning, career, Future Skills Academy"
+04-three-habits-that-never-expire,videos/04-three-habits-that-never-expire.mp4,Three habits that never expire,Start here,45,"Verify everything. Own the outcome. Play long games.
+
+Future Skills Academy teaches the five skills that compound in an AI-native world. Free lessons and practice: https://futureskillsacademy.ai
+
+#Shorts #AI #FutureSkills","AI skills, future skills, AI, learning, career, Future Skills Academy"
+01-verify-ai-output,videos/practice/01-verify-ai-output.mp4,Verification as a way of life: a practice from Member of Technical Staff,Member of Technical Staff,48,"Fast teams don't trust AI more. Their verification loop is so fast that trust is unnecessary.
+
+Try it:
+1. Write down the three cheapest checks that catch 80% of AI mistakes.
+2. A test command. A smoke flow. A diff review ritual.
+3. Run them before you accept any generated change.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-1-3
+Member of Technical Staff, lesson 1.3, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #AIengineering","AI skills, future skills, AI, learning, career, Future Skills Academy, AI engineering, Member of Technical Staff"
+02-why-demos-lie,videos/practice/02-why-demos-lie.mp4,Why demos lie: a practice from Member of Technical Staff,Member of Technical Staff,45,"The demo is run by the person who built it, on inputs it handles. Production is run by strangers, on inputs you never imagined.
+
+Try it:
+1. Collect twenty real inputs for an AI feature, including the ugly ones.
+2. Define what a passing answer looks like for each.
+3. You have just written your first eval set.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-4-1
+Member of Technical Staff, lesson 4.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #AIengineering","AI skills, future skills, AI, learning, career, Future Skills Academy, AI engineering, Member of Technical Staff"
+03-one-way-two-way-doors,videos/practice/03-one-way-two-way-doors.mp4,One-way and two-way doors: a practice from High Agency,High Agency,47,"Two-way doors are reversible. Decide, observe, adjust. One-way doors deserve deliberation.
+
+Try it:
+1. List the five decisions pending around you.
+2. Classify each: one-way or two-way.
+3. Decide every two-way door this week, with the cheapest test you can run.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/high-agency.html#agency-2-1
+High Agency, lesson 2.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #leadership","AI skills, future skills, AI, learning, career, Future Skills Academy, leadership, High Agency"
+04-direction-is-the-expensive-sentence,videos/practice/04-direction-is-the-expensive-sentence.mp4,Direction: the most expensive sentence: a practice from High Agency,High Agency,42,"When execution is fast, a vague goal does damage at machine speed.
+
+Try it:
+1. Take your team's current goal, as written.
+2. Ask two people, or two AI sessions, to paraphrase what it means for this week.
+3. If the paraphrases diverge, rewrite the goal until they don't.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/high-agency.html#agency-4-2
+High Agency, lesson 4.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #leadership","AI skills, future skills, AI, learning, career, Future Skills Academy, leadership, High Agency"
+05-generate-wide-choose-narrow,videos/practice/05-generate-wide-choose-narrow.mp4,"Generate wide, choose narrow: a practice from Taste",Taste,45,"Competent is the new baseline. Which means competent is the new invisible.
+
+Try it:
+1. Take one real design task and force twenty distinct AI directions.
+2. Pick two. Write down why those two.
+3. Iterate only on them, and compare to your usual first-idea workflow.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/taste.html#taste-4-1
+Taste, lesson 4.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #designtaste","AI skills, future skills, AI, learning, career, Future Skills Academy, design taste, Taste"
+06-subtraction-by-default,videos/practice/06-subtraction-by-default.mp4,Subtraction as the default move: a practice from Taste,Taste,44,"Addition feels like progress. Subtraction feels like loss. That's why disciplined removal is rare enough to be a signature.
+
+Try it:
+1. Take a finished piece of your work.
+2. Cut 30% of the words, elements, or features, losing nothing essential.
+3. Ask an AI to argue for each cut. Then you judge.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/taste.html#taste-5-1
+Taste, lesson 5.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #designtaste","AI skills, future skills, AI, learning, career, Future Skills Academy, design taste, Taste"
+07-the-discipline-of-shutting-up,videos/practice/07-the-discipline-of-shutting-up.mp4,The discipline of shutting up: a practice from Relationships,Relationships,42,"Count three full seconds before you respond. Resist finishing their sentences.
+
+Try it:
+1. In your next three important conversations, wait three seconds before every response.
+2. Give one “what I'm hearing is…” summary before any opinion of yours.
+3. Note what surfaces in the pauses.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/relationships.html#rel-2-2
+Relationships, lesson 2.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #salesandrelationships","AI skills, future skills, AI, learning, career, Future Skills Academy, sales and relationships, Relationships"
+08-promise-smaller,videos/practice/08-promise-smaller.mp4,"The mechanics: small promises, kept visibly: a practice from Relationships",Relationships,42,"You said Thursday. Did it arrive Thursday? Trust is a tiny loop everyone runs on you, constantly.
+
+Try it:
+1. For one week, log every promise, including the casual ones.
+2. Track your keep rate, honestly.
+3. Shrink your promises until it's above 95%.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/relationships.html#rel-1-2
+Relationships, lesson 1.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #salesandrelationships","AI skills, future skills, AI, learning, career, Future Skills Academy, sales and relationships, Relationships"
+09-conclusion-first,videos/practice/09-conclusion-first.mp4,Structure: conclusion first: a practice from Communication,Communication,45,"School taught you to build to a conclusion. Work punishes you for it. Busy people read three lines and decide.
+
+Try it:
+1. Rewrite one real document conclusion-first: answer in line one.
+2. Three reasons as headers, evidence beneath each.
+3. Send both versions to a colleague. Ask which they'd rather receive.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/communication.html#comm-1-3
+Communication, lesson 1.3, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #communication","AI skills, future skills, AI, learning, career, Future Skills Academy, communication, Communication"
+10-writing-with-ai-keep-your-voice,videos/practice/10-writing-with-ai-keep-your-voice.mp4,Writing with AI without losing your voice: a practice from Communication,Communication,40,"Voice is now a signal of authenticity. You supply the point, the structure, the specifics. AI supplies critique and polish.
+
+Try it:
+1. Write a short piece your way.
+2. Ask AI for its three strongest criticisms. Not a rewrite.
+3. Address them in your own words.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/communication.html#comm-2-3
+Communication, lesson 2.3, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #communication","AI skills, future skills, AI, learning, career, Future Skills Academy, communication, Communication"
+11-prompts-are-specifications,videos/practice/11-prompts-are-specifications.mp4,Prompts are specifications: a practice from Member of Technical Staff,Member of Technical Staff,48,"A model fills every gap in your spec with the most statistically common choice. Rarely yours.
+
+Try it:
+1. Write a one-page spec for a small feature: goal, constraints, edge cases, acceptance checks.
+2. Hand it to an AI agent, untouched.
+3. Every clarifying question it asks is a hole in your spec.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-2-2
+Member of Technical Staff, lesson 2.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #AIengineering","AI skills, future skills, AI, learning, career, Future Skills Academy, AI engineering, Member of Technical Staff"
+12-guardrails-and-failure-modes,videos/practice/12-guardrails-and-failure-modes.mp4,Guardrails and failure modes: a practice from Member of Technical Staff,Member of Technical Staff,52,"Agents loop. They overreach. They declare victory early. They take destructive shortcuts.
+
+Try it:
+1. Write down the three worst things your agent could do with its current permissions.
+2. Redesign so the worst one is impossible.
+3. Make the other two recoverable.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-3-3
+Member of Technical Staff, lesson 3.3, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #AIengineering","AI skills, future skills, AI, learning, career, Future Skills Academy, AI engineering, Member of Technical Staff"
+13-permission-is-imaginary,videos/practice/13-permission-is-imaginary.mp4,Permission is mostly imaginary: a practice from High Agency,High Agency,49,"Most of the permission people wait for is a social guess about what might annoy someone.
+
+Try it:
+1. Pick one thing you've been waiting for permission to do.
+2. Reversible? Do it this week, and inform.
+3. Not reversible? Send the “I plan to, unless you object” message today.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/high-agency.html#agency-1-2
+High Agency, lesson 1.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #leadership","AI skills, future skills, AI, learning, career, Future Skills Academy, leadership, High Agency"
+14-delegating-to-machines,videos/practice/14-delegating-to-machines.mp4,Delegating to machines: a practice from High Agency,High Agency,53,"Treat AI delegation as a management skill. Give the goal and constraints, not keystrokes. Demand artifacts you can verify.
+
+Try it:
+1. Choose one recurring deliverable you produce.
+2. Write a standing brief: goal, audience, quality bar, examples.
+3. Have AI produce the next one end to end. Review like a manager, not a co-author.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/high-agency.html#agency-3-2
+High Agency, lesson 3.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #leadership","AI skills, future skills, AI, learning, career, Future Skills Academy, leadership, High Agency"
+15-the-language-of-critique,videos/practice/15-the-language-of-critique.mp4,The language of critique: a practice from Taste,Taste,49,"“The primary action competes with three other elements of equal weight.” That is critique. Specific, and tied to intent.
+
+Try it:
+1. Critique one piece of work: a colleague's, a famous product's, or your own.
+2. Four sentences: intent, what serves it, what fights it, one concrete suggestion.
+3. Zero adjectives of pure preference.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/taste.html#taste-2-2
+Taste, lesson 2.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #designtaste","AI skills, future skills, AI, learning, career, Future Skills Academy, design taste, Taste"
+16-directing-not-prompting,videos/practice/16-directing-not-prompting.mp4,"Directing, not prompting: a practice from Taste",Taste,52,"Directing means a creative brief. Who it's for. The one feeling it must produce. Three references. What's off the table.
+
+Try it:
+1. Write a one-page brief for a real task: audience, the single feeling, three annotated references, the forbidden list.
+2. Run it through your AI tool.
+3. Run the old two-line prompt too, and compare side by side.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/taste.html#taste-4-2
+Taste, lesson 4.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #designtaste","AI skills, future skills, AI, learning, career, Future Skills Academy, design taste, Taste"
+17-discovery-questions,videos/practice/17-discovery-questions.mp4,Discovery: questions that open people: a practice from Relationships,Relationships,46,"Don't ask “would you use a tool that…?” You'll get polite fiction.
+
+Try it:
+1. Run three twenty-minute discovery conversations this week.
+2. Past events only. “Tell me more” three levels down. Zero pitching.
+3. Write down the problem you found versus the one you expected.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/relationships.html#rel-2-1
+Relationships, lesson 2.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #salesandrelationships","AI skills, future skills, AI, learning, career, Future Skills Academy, sales and relationships, Relationships"
+18-qualify-hard-pitch-plainly,videos/practice/18-qualify-hard-pitch-plainly.mp4,"Qualify hard, pitch plainly: a practice from Relationships",Relationships,52,"Time is a salesperson's only inventory. Four questions: is the pain real, is there money, can they decide, is there a reason to act now?
+
+Try it:
+1. Score your pipeline against the four questions.
+2. Retire every deal scoring below two, gracefully, with the door left open.
+3. Rewrite your pitch as five plain sentences.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/relationships.html#rel-4-2
+Relationships, lesson 4.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #salesandrelationships","AI skills, future skills, AI, learning, career, Future Skills Academy, sales and relationships, Relationships"
+19-the-slide-is-not-the-talk,videos/practice/19-the-slide-is-not-the-talk.mp4,Presentations: the slide is not the talk: a practice from Communication,Communication,46,"A presentation is a spoken argument with visual support. Not a document performed aloud.
+
+Try it:
+1. Write the talk first: one point, three beats, in spoken language.
+2. Build the fewest slides that support it.
+3. Rehearse aloud twice, standing up. Then deliver.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/communication.html#comm-3-1
+Communication, lesson 3.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #communication","AI skills, future skills, AI, learning, career, Future Skills Academy, communication, Communication"
+20-altitude,videos/practice/20-altitude.mp4,Altitude: exec to expert and back: a practice from Communication,Communication,54,"One sentence for the hallway. One paragraph for the exec. One page for the decision. Full depth for the people doing the work.
+
+Try it:
+1. Write your main project at four altitudes: sentence, paragraph, page, full depth.
+2. Test the sentence on someone senior, and the page on someone technical.
+3. Revise where their eyes glazed.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/communication.html#comm-4-2
+Communication, lesson 4.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #communication","AI skills, future skills, AI, learning, career, Future Skills Academy, communication, Communication"
+21-context-window-is-the-workspace,videos/practice/21-context-window-is-the-workspace.mp4,The context window is the workspace: a practice from Member of Technical Staff,Member of Technical Staff,51,"A model can only reason over what is in front of it. Treat the context window like a new hire's first day.
+
+Try it:
+1. Take a task an AI recently did poorly for you.
+2. Rewrite the request with curated context: goal, constraints, examples, relevant code.
+3. Compare the results side by side.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-2-1
+Member of Technical Staff, lesson 2.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #AIengineering","AI skills, future skills, AI, learning, career, Future Skills Academy, AI engineering, Member of Technical Staff"
+22-tools-not-chat,videos/practice/22-tools-not-chat.mp4,"Tools, not chat: a practice from Member of Technical Staff",Member of Technical Staff,46,"It reads state, decides, acts, observes, and repeats. The quality of an agent is mostly the quality of its tools.
+
+Try it:
+1. Build a single-purpose agent with at most three tools.
+2. Give it one real task you do every week.
+3. Run it ten times. Log every failure and its cause.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-3-1
+Member of Technical Staff, lesson 3.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #AIengineering","AI skills, future skills, AI, learning, career, Future Skills Academy, AI engineering, Member of Technical Staff"
+23-reviewing-machine-written-code,videos/practice/23-reviewing-machine-written-code.mp4,Reviewing machine-written code: a practice from Member of Technical Staff,Member of Technical Staff,56,"Machines don't get tired. But they confidently invent APIs, silently drop requirements, and handle errors that can't happen.
+
+Try it:
+1. Have an AI implement a small feature.
+2. Review the diff with a written checklist: requirements covered, APIs verified to exist.
+3. Check errors are handled honestly, and tests would fail if the feature broke.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-4-3
+Member of Technical Staff, lesson 4.3, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #AIengineering","AI skills, future skills, AI, learning, career, Future Skills Academy, AI engineering, Member of Technical Staff"
+24-the-one-day-prototype,videos/practice/24-the-one-day-prototype.mp4,The one-day prototype: a practice from Member of Technical Staff,Member of Technical Staff,49,"AI collapsed the cost of finding out. Cut the idea down to its riskiest assumption. Build only what tests it. Fake the rest.
+
+Try it:
+1. Pick an idea you've debated for over a month.
+2. Name its riskiest assumption.
+3. Build the smallest thing that tests it, in one day.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-5-1
+Member of Technical Staff, lesson 5.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #AIengineering","AI skills, future skills, AI, learning, career, Future Skills Academy, AI engineering, Member of Technical Staff"
+25-owning-outcomes-not-tasks,videos/practice/25-owning-outcomes-not-tasks.mp4,"Owning outcomes, not tasks: a practice from High Agency",High Agency,53,"A task-owner does what was asked and stops. An outcome-owner asks what the task was for.
+
+Try it:
+1. For each responsibility, name the outcome it serves in one sentence.
+2. Find one place where finishing the task would still fail the outcome.
+3. Fix the gap, not the task.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/high-agency.html#agency-1-3
+High Agency, lesson 1.3, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #leadership","AI skills, future skills, AI, learning, career, Future Skills Academy, leadership, High Agency"
+26-the-leverage-audit,videos/practice/26-the-leverage-audit.mp4,The leverage audit: a practice from High Agency,High Agency,56,"Rank everything by output per hour of you. Decisions, designs, relationships, and systems that run without you sit on top.
+
+Try it:
+1. Log your hours for three days in thirty-minute blocks.
+2. Score each block one to ten on leverage.
+3. Eliminate, automate, or delegate the lowest three hours. Permanently.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/high-agency.html#agency-3-1
+High Agency, lesson 3.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #leadership","AI skills, future skills, AI, learning, career, Future Skills Academy, leadership, High Agency"
+27-saying-no-is-leadership,videos/practice/27-saying-no-is-leadership.mp4,Saying no is a leadership act: a practice from High Agency,High Agency,52,"Every yes spends your scarcest resource: focused attention. High-agency people are the ones whose few yeses actually happen.
+
+Try it:
+1. Find one commitment you're failing slowly.
+2. Convert it this week into a real yes: scheduled and resourced.
+3. Or into a clean no, with an honest explanation.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/high-agency.html#agency-5-1
+High Agency, lesson 5.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #leadership","AI skills, future skills, AI, learning, career, Future Skills Academy, leadership, High Agency"
+28-finishing,videos/practice/28-finishing.mp4,Finishing: the rarest skill: a practice from High Agency,High Agency,51,"The graveyard of eighty-percent-done projects is where leverage goes to die. All the cost, none of the compounding.
+
+Try it:
+1. Inventory your eighty-percent-done projects.
+2. Kill half of them explicitly: written, announced, archived.
+3. Finish one completely within two weeks.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/high-agency.html#agency-6-3
+High Agency, lesson 6.3, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #leadership","AI skills, future skills, AI, learning, career, Future Skills Academy, leadership, High Agency"
+29-taste-is-judgment,videos/practice/29-taste-is-judgment.mp4,"Taste is judgment, not preference: a practice from Taste",Taste,52,"“This works because the hierarchy guides your eye to the one action that matters.” That's taste. Arguable, teachable, valuable.
+
+Try it:
+1. Pick one product you love and one you find ugly.
+2. Write five sentences of reasons for each. No “I like,” no “it feels.”
+3. Every claim must point at something concrete on the screen.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/taste.html#taste-1-1
+Taste, lesson 1.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #designtaste","AI skills, future skills, AI, learning, career, Future Skills Academy, design taste, Taste"
+30-noticing-the-slow-look,videos/practice/30-noticing-the-slow-look.mp4,Noticing: the slow look: a practice from Taste,Taste,51,"Most looking is recognition: a tenth of a second of “landing page.” Seeing is slower. Where does the eye land first? Was that chosen?
+
+Try it:
+1. Choose one screen you use daily.
+2. Look at it for ten full minutes.
+3. Write twenty observations: things that are actually there, not judgments.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/taste.html#taste-2-1
+Taste, lesson 2.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #designtaste","AI skills, future skills, AI, learning, career, Future Skills Academy, design taste, Taste"
+31-space-is-a-material,videos/practice/31-space-is-a-material.mp4,Space is a material: a practice from Taste,Taste,56,"Space groups without boxes, separates without lines, and confers importance without size. Related things sit close. Unrelated things sit measurably farther.
+
+Try it:
+1. Audit one of your layouts. List every distinct spacing value.
+2. Reduce the list to four values on a consistent scale.
+3. Rebuild, and notice what the discipline does to the page.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/taste.html#taste-3-2
+Taste, lesson 3.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #designtaste","AI skills, future skills, AI, learning, career, Future Skills Academy, design taste, Taste"
+32-knowing-when-its-done,videos/practice/32-knowing-when-its-done.mp4,Knowing when it's done: a practice from Taste,Taste,52,"Ship early and you leave the rough edge every user feels. Polish forever and you hide fear of judgment behind craftsmanship.
+
+Try it:
+1. Before you start, write the definition of done: the three things it must achieve.
+2. When they're met, do one stranger's pass.
+3. Ship, even though you can see five more tweaks.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/taste.html#taste-5-2
+Taste, lesson 5.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #designtaste","AI skills, future skills, AI, learning, career, Future Skills Academy, design taste, Taste"
+33-follow-through-as-a-system,videos/practice/33-follow-through-as-a-system.mp4,Follow-through as a system: a practice from Relationships,Relationships,63,"Nobody followed up, and eighteen months later you're strangers again. The fix is unromantic: a system. A ledger of who matters and when to resurface.
+
+Try it:
+1. Build your ledger: twenty-five names, last contact, open promises, next touch date.
+2. Set up an AI-assisted reminder loop.
+3. Send the three most overdue check-ins. Helpful, zero asks.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/relationships.html#rel-3-3
+Relationships, lesson 3.3, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #salesandrelationships","AI skills, future skills, AI, learning, career, Future Skills Academy, sales and relationships, Relationships"
+34-selling-is-helping,videos/practice/34-selling-is-helping.mp4,"Selling is helping, or it is nothing: a practice from Relationships",Relationships,53,"Sales isn't persuasion. It's finding people with a problem you genuinely solve and making it easy to choose you when you're right.
+
+Try it:
+1. Write your honest fit description: who you help brilliantly, who adequately.
+2. And who you should send elsewhere, with names of where.
+3. Use it out loud in your next real sales conversation.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/relationships.html#rel-4-1
+Relationships, lesson 4.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #salesandrelationships","AI skills, future skills, AI, learning, career, Future Skills Academy, sales and relationships, Relationships"
+35-give-first,videos/practice/35-give-first.mp4,"Give first, and mean it: a practice from Relationships",Relationships,60,"The introduction that costs two minutes and changes someone's year. The candid answer. Help before there's anything in it for you.
+
+Try it:
+1. Once a week for a month, do one act of unrequested usefulness.
+2. An intro, a resource, or an hour of your expertise.
+3. Track nothing. Check what came back in six months.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/relationships.html#rel-5-1
+Relationships, lesson 5.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #salesandrelationships","AI skills, future skills, AI, learning, career, Future Skills Academy, sales and relationships, Relationships"
+36-negotiation-without-poker-faces,videos/practice/36-negotiation-without-poker-faces.mp4,Negotiation without poker faces: a practice from Relationships,Relationships,57,"Know what you need. Know your real alternative. Then ask what they actually value, which is rarely what you value.
+
+Try it:
+1. Before your next negotiation, write three lists: must-haves, nice-to-haves, cheap-for-me-precious-for-them.
+2. Ask five questions before making any offer.
+3. Compare the outcome to your usual approach.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/relationships.html#rel-6-1
+Relationships, lesson 6.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #salesandrelationships","AI skills, future skills, AI, learning, career, Future Skills Academy, sales and relationships, Relationships"
+37-one-point-sharpened,videos/practice/37-one-point-sharpened.mp4,"One point, sharpened: a practice from Communication",Communication,56,"Every effective message has exactly one point: the sentence you'd keep if you could keep only one. If you can't say it, you have a topic, not a point.
+
+Try it:
+1. Take your last three significant messages: a memo, a deck, a long email.
+2. For each, write the one sentence it existed to convey.
+3. Can't? Rewrite one around a single point and send it.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/communication.html#comm-1-2
+Communication, lesson 1.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #communication","AI skills, future skills, AI, learning, career, Future Skills Academy, communication, Communication"
+38-editing-for-the-reader,videos/practice/38-editing-for-the-reader.mp4,Editing for the reader: a practice from Communication,Communication,55,"First drafts are written for the writer. Cut the throat-clearing. Replace abstractions with specifics. Delete every word the sentence survives without.
+
+Try it:
+1. Take six hundred words you've written.
+2. Cut to three hundred without losing a single necessary idea.
+3. Have AI try the same cut. Note what it couldn't know to keep.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/communication.html#comm-2-2
+Communication, lesson 2.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #communication","AI skills, future skills, AI, learning, career, Future Skills Academy, communication, Communication"
+39-model-the-head,videos/practice/39-model-the-head.mp4,Model the head you're talking to: a practice from Communication,Communication,54,"Four questions before any message that matters: what do they know? What do they care about? What do they fear? What do I need from them?
+
+Try it:
+1. Before your next significant message, write four answers: knows, cares, fears, needed.
+2. Then write the message.
+3. After the reply, score your model against reality.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/communication.html#comm-4-1
+Communication, lesson 4.1, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #communication","AI skills, future skills, AI, learning, career, Future Skills Academy, communication, Communication"
+40-feedback-that-lands,videos/practice/40-feedback-that-lands.mp4,Feedback that lands: a practice from Communication,Communication,62,"Say what happened, the impact it had, and what different would look like. Close to the event, in private, assuming they want to be good.
+
+Try it:
+1. Deliver one piece of real feedback: what happened, the impact, what different looks like.
+2. Ask a colleague: “what's one thing I do that makes your work harder?”
+3. Say thank you. Sit with it for a day.
+
+Read the full lesson (free): https://futureskillsacademy.ai/tracks/communication.html#comm-6-2
+Communication, lesson 6.2, from Future Skills Academy: https://futureskillsacademy.ai
+
+#Shorts #AI #communication","AI skills, future skills, AI, learning, career, Future Skills Academy, communication, Communication"

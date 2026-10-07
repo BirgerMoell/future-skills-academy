@@ -252,6 +252,19 @@
     document.querySelectorAll(".video-frame video").forEach(function (v) {
       v.pause();
     });
+    if (frame.dataset.yt) {
+      /* hosted on YouTube: load the privacy-enhanced embed only on click */
+      var iframe = document.createElement("iframe");
+      iframe.src =
+        "https://www.youtube-nocookie.com/embed/" + frame.dataset.yt + "?autoplay=1&rel=0&playsinline=1&modestbranding=1";
+      iframe.title = btn.getAttribute("aria-label") || "Video";
+      iframe.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+      iframe.allowFullscreen = true;
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
+      frame.replaceChild(iframe, btn);
+      track("Video Play: " + (frame.dataset.slug || ""));
+      return;
+    }
     var video = document.createElement("video");
     video.src = frame.dataset.video;
     video.poster = btn.querySelector("img").getAttribute("src");

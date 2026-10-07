@@ -6,6 +6,7 @@
 Run web.py first so assets/video/ exists.
 """
 import html
+import json
 import os
 import re
 import subprocess
@@ -40,8 +41,12 @@ def secs(slug):
     return round(float(out))
 
 
+YT = json.load(open(os.path.join(VID, "youtube.json"))) if os.path.exists(os.path.join(VID, "youtube.json")) else {}
+
+
 def player(slug, base, label, dur):
-    return (f'<div class="video-frame" data-video="{base}assets/video/{slug}.mp4" data-slug="{slug}">'
+    yt = f' data-yt="{YT[slug]}"' if YT.get(slug) else ""
+    return (f'<div class="video-frame" data-video="{base}assets/video/{slug}.mp4" data-slug="{slug}"{yt}>'
             f'<button class="video-play" type="button" aria-label="Play: {html.escape(label, quote=True)} ({dur} seconds)">'
             f'<img src="{base}assets/video/{slug}.jpg" alt="" loading="lazy" width="270" height="480" />'
             f'<span class="video-play-icon" aria-hidden="true"></span>'

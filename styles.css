@@ -1183,6 +1183,7 @@ footer {
 }
 
 .video-frame video,
+.video-frame iframe,
 .video-play,
 .video-play img {
   display: block;
@@ -1379,4 +1380,8 @@ footer {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 28px 16px;
   }
+}
+
+.video-frame iframe {
+  border: 0;
 }
