@@ -245,6 +245,10 @@ LESSONS = [
      "Test the sentence on someone senior, and the page on someone technical. Revise where their eyes glazed."),
 ]
 
+from batch3 import MORE  # noqa: E402
+
+LESSONS += MORE
+
 
 def build(lesson):
     lid, slug, hook, ideas, steps, psay = lesson

@@ -219,3 +219,223 @@ Practice:
 - Revise where their eyes glazed.
 
 https://futureskillsacademy.ai/tracks/communication.html#comm-4-2
+
+## mts-2-1 · “The AI is dumb” usually means you were vague.
+
+A model can only reason over what is in front of it. Treat the context window like a new hire's first day.
+
+Practice:
+- Take a task an AI recently did poorly for you.
+- Rewrite the request with curated context: goal, constraints, examples, relevant code.
+- Compare the results side by side.
+
+https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-2-1
+
+## mts-3-1 · An agent is a model in a loop with tools.
+
+It reads state, decides, acts, observes, and repeats. The quality of an agent is mostly the quality of its tools.
+
+Practice:
+- Build a single-purpose agent with at most three tools.
+- Give it one real task you do every week.
+- Run it ten times. Log every failure and its cause.
+
+https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-3-1
+
+## mts-4-3 · Never approve a diff you can't explain.
+
+Machines don't get tired. But they confidently invent APIs, silently drop requirements, and handle errors that can't happen.
+
+Practice:
+- Have an AI implement a small feature.
+- Review the diff with a written checklist: requirements covered, APIs verified to exist.
+- Check errors are handled honestly, and tests would fail if the feature broke.
+
+https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-4-3
+
+## mts-5-1 · “Would this work?” Not a meeting. A prototype.
+
+AI collapsed the cost of finding out. Cut the idea down to its riskiest assumption. Build only what tests it. Fake the rest.
+
+Practice:
+- Pick an idea you've debated for over a month.
+- Name its riskiest assumption.
+- Build the smallest thing that tests it, in one day.
+
+https://futureskillsacademy.ai/tracks/member-of-technical-staff.html#mts-5-1
+
+## agency-1-3 · “I sent the email.” Or: “They haven't replied, so I'm calling.”
+
+A task-owner does what was asked and stops. An outcome-owner asks what the task was for.
+
+Practice:
+- For each responsibility, name the outcome it serves in one sentence.
+- Find one place where finishing the task would still fail the outcome.
+- Fix the gap, not the task.
+
+https://futureskillsacademy.ai/tracks/high-agency.html#agency-1-3
+
+## agency-3-1 · Half your week is probably low leverage.
+
+Rank everything by output per hour of you. Decisions, designs, relationships, and systems that run without you sit on top.
+
+Practice:
+- Log your hours for three days in thirty-minute blocks.
+- Score each block one to ten on leverage.
+- Eliminate, automate, or delegate the lowest three hours. Permanently.
+
+https://futureskillsacademy.ai/tracks/high-agency.html#agency-3-1
+
+## agency-5-1 · The slow maybe destroys more trust than a hundred clean nos.
+
+Every yes spends your scarcest resource: focused attention. High-agency people are the ones whose few yeses actually happen.
+
+Practice:
+- Find one commitment you're failing slowly.
+- Convert it this week into a real yes: scheduled and resourced.
+- Or into a clean no, with an honest explanation.
+
+https://futureskillsacademy.ai/tracks/high-agency.html#agency-5-1
+
+## agency-6-3 · AI made starting effortless. Finishing got rare.
+
+The graveyard of eighty-percent-done projects is where leverage goes to die. All the cost, none of the compounding.
+
+Practice:
+- Inventory your eighty-percent-done projects.
+- Kill half of them explicitly: written, announced, archived.
+- Finish one completely within two weeks.
+
+https://futureskillsacademy.ai/tracks/high-agency.html#agency-6-3
+
+## taste-1-1 · “I like it” is preference. Taste comes with reasons.
+
+“This works because the hierarchy guides your eye to the one action that matters.” That's taste. Arguable, teachable, valuable.
+
+Practice:
+- Pick one product you love and one you find ugly.
+- Write five sentences of reasons for each. No “I like,” no “it feels.”
+- Every claim must point at something concrete on the screen.
+
+https://futureskillsacademy.ai/tracks/taste.html#taste-1-1
+
+## taste-2-1 · Generated mediocrity survives the fast look.
+
+Most looking is recognition: a tenth of a second of “landing page.” Seeing is slower. Where does the eye land first? Was that chosen?
+
+Practice:
+- Choose one screen you use daily.
+- Look at it for ten full minutes.
+- Write twenty observations: things that are actually there, not judgments.
+
+https://futureskillsacademy.ai/tracks/taste.html#taste-2-1
+
+## taste-3-2 · Whitespace isn't waste. It's the material.
+
+Space groups without boxes, separates without lines, and confers importance without size. Related things sit close. Unrelated things sit measurably farther.
+
+Practice:
+- Audit one of your layouts. List every distinct spacing value.
+- Reduce the list to four values on a consistent scale.
+- Rebuild, and notice what the discipline does to the page.
+
+https://futureskillsacademy.ai/tracks/taste.html#taste-3-2
+
+## taste-5-2 · Done is when the remaining changes are preferences.
+
+Ship early and you leave the rough edge every user feels. Polish forever and you hide fear of judgment behind craftsmanship.
+
+Practice:
+- Before you start, write the definition of done: the three things it must achieve.
+- When they're met, do one stranger's pass.
+- Ship, even though you can see five more tweaks.
+
+https://futureskillsacademy.ai/tracks/taste.html#taste-5-2
+
+## rel-3-3 · Most relationships don't end. They evaporate.
+
+Nobody followed up, and eighteen months later you're strangers again. The fix is unromantic: a system. A ledger of who matters and when to resurface.
+
+Practice:
+- Build your ledger: twenty-five names, last contact, open promises, next touch date.
+- Set up an AI-assisted reminder loop.
+- Send the three most overdue check-ins. Helpful, zero asks.
+
+https://futureskillsacademy.ai/tracks/relationships.html#rel-3-3
+
+## rel-4-1 · “I don't think we're the right fit. Here's who is.”
+
+Sales isn't persuasion. It's finding people with a problem you genuinely solve and making it easy to choose you when you're right.
+
+Practice:
+- Write your honest fit description: who you help brilliantly, who adequately.
+- And who you should send elsewhere, with names of where.
+- Use it out loud in your next real sales conversation.
+
+https://futureskillsacademy.ai/tracks/relationships.html#rel-4-1
+
+## rel-5-1 · Generosity signals abundance. Abundance attracts opportunity.
+
+The introduction that costs two minutes and changes someone's year. The candid answer. Help before there's anything in it for you.
+
+Practice:
+- Once a week for a month, do one act of unrequested usefulness.
+- An intro, a resource, or an hour of your expertise.
+- Track nothing. Check what came back in six months.
+
+https://futureskillsacademy.ai/tracks/relationships.html#rel-5-1
+
+## rel-6-1 · Folk negotiation is bluffing. Durable negotiation is curiosity.
+
+Know what you need. Know your real alternative. Then ask what they actually value, which is rarely what you value.
+
+Practice:
+- Before your next negotiation, write three lists: must-haves, nice-to-haves, cheap-for-me-precious-for-them.
+- Ask five questions before making any offer.
+- Compare the outcome to your usual approach.
+
+https://futureskillsacademy.ai/tracks/relationships.html#rel-6-1
+
+## comm-1-2 · Four points compress into zero.
+
+Every effective message has exactly one point: the sentence you'd keep if you could keep only one. If you can't say it, you have a topic, not a point.
+
+Practice:
+- Take your last three significant messages: a memo, a deck, a long email.
+- For each, write the one sentence it existed to convey.
+- Can't? Rewrite one around a single point and send it.
+
+https://futureskillsacademy.ai/tracks/communication.html#comm-1-2
+
+## comm-2-2 · Half the length is hiding inside the draft.
+
+First drafts are written for the writer. Cut the throat-clearing. Replace abstractions with specifics. Delete every word the sentence survives without.
+
+Practice:
+- Take six hundred words you've written.
+- Cut to three hundred without losing a single necessary idea.
+- Have AI try the same cut. Note what it couldn't know to keep.
+
+https://futureskillsacademy.ai/tracks/communication.html#comm-2-2
+
+## comm-4-1 · Your audience is not you with less information.
+
+Four questions before any message that matters: what do they know? What do they care about? What do they fear? What do I need from them?
+
+Practice:
+- Before your next significant message, write four answers: knows, cares, fears, needed.
+- Then write the message.
+- After the reply, score your model against reality.
+
+https://futureskillsacademy.ai/tracks/communication.html#comm-4-1
+
+## comm-6-2 · “You're careless” is an attack. A fact is information.
+
+Say what happened, the impact it had, and what different would look like. Close to the event, in private, assuming they want to be good.
+
+Practice:
+- Deliver one piece of real feedback: what happened, the impact, what different looks like.
+- Ask a colleague: “what's one thing I do that makes your work harder?”
+- Say thank you. Sit with it for a day.
+
+https://futureskillsacademy.ai/tracks/communication.html#comm-6-2

@@ -70,8 +70,9 @@ def layout(markup, size, maxw, align="left", lead=1.16):
         a, w = acc, raw
         if w.startswith("*"):
             acc, a, w = True, True, w[1:]
-        if w.endswith("*"):
-            acc, w = False, w[:-1]
+        m = re.match(r"^(.*)\*([\u201d\u2019\"')\]]*)$", w)  # closing * may be followed by quotes
+        if m:
+            acc, w = False, m.group(1) + m.group(2)
         toks.append((w, a))
     lines, cur, curw = [], [], 0
     for w, a in toks:
