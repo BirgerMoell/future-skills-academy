@@ -111,6 +111,8 @@ VIDEOS = {
     ],
 }
 
+POSTER_DIR = os.path.abspath(os.path.join(OUT, "..", "assets", "video"))
+
 if __name__ == "__main__":
     args = sys.argv[1:]
     preview = "--preview" in args
@@ -118,4 +120,4 @@ if __name__ == "__main__":
     for s in slugs:
         match = [k for k in VIDEOS if k.startswith(s)]
         for k in match:
-            render(k, VIDEOS[k](), OUT, WORK, preview=preview)
+            render(k, VIDEOS[k](), OUT, WORK, preview=preview, poster=POSTER_DIR and os.path.join(POSTER_DIR, k + ".jpg") if "--posters" in args else None)

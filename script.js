@@ -242,4 +242,39 @@
       track("Booking Click");
     });
   });
+
+  /* click-to-play videos: nothing downloads until the poster is clicked */
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest ? e.target.closest(".video-play") : null;
+    if (!btn) return;
+    var frame = btn.closest(".video-frame");
+    if (!frame) return;
+    document.querySelectorAll(".video-frame video").forEach(function (v) {
+      v.pause();
+    });
+    var video = document.createElement("video");
+    video.src = frame.dataset.video;
+    video.poster = btn.querySelector("img").getAttribute("src");
+    video.controls = true;
+    video.autoplay = true;
+    video.setAttribute("playsinline", "");
+    video.preload = "auto";
+    frame.replaceChild(video, btn);
+    video.play().catch(function () {});
+    track("Video Play: " + (frame.dataset.slug || ""));
+  });
+
+  /* video gallery: filter by track */
+  var vfilters = document.querySelectorAll(".vfilter");
+  vfilters.forEach(function (button) {
+    button.addEventListener("click", function () {
+      var wanted = button.dataset.filter;
+      vfilters.forEach(function (b) {
+        b.classList.toggle("is-active", b === button);
+      });
+      document.querySelectorAll("[data-vgrid] .vcard").forEach(function (card) {
+        card.hidden = wanted !== "all" && card.dataset.track !== wanted;
+      });
+    });
+  });
 })();

@@ -133,6 +133,116 @@ LESSONS = [
       "Address them in your own words."],
      "Your practice. Write a short piece your way. Then ask A I for its three strongest criticisms, not a rewrite, "
      "and address them in your own words."),
+    ("mts-2-2", "prompts-are-specifications",
+     ("Ambiguity in, *ambiguity* out.", "Ambiguity in, ambiguity out.", 126),
+     [("A model fills every gap in your spec with the most *statistically common* choice. Rarely yours.",
+       "A model fills every gap in your spec with the most statistically common choice. Which is rarely yours."),
+      ("State the goal, the edge cases, the non-goals, and what *done* looks like. One example beats ten paragraphs.",
+       "State the goal, the inputs and outputs, the edge cases, the non goals, and what done looks like. An example of the desired output is worth ten paragraphs of description.")],
+     ["Write a one-page spec for a small feature: goal, constraints, edge cases, acceptance checks.",
+      "Hand it to an AI agent, untouched.",
+      "Every clarifying question it asks is a hole in your spec."],
+     "Your practice. Write a one page spec for a small feature. Goal, constraints, edge cases, acceptance checks. "
+     "Hand it to an A I agent, untouched. Every clarifying question it needs to ask is a hole in your spec."),
+    ("mts-3-3", "guardrails-and-failure-modes",
+     ("Assume the agent will do the *worst thing* its permissions allow.", "Assume the agent will eventually do the worst thing its permissions allow.", 96),
+     [("Agents loop. They overreach. They declare victory early. They take *destructive shortcuts.*",
+       "Agents fail in characteristic ways. They loop. They overreach. They declare victory early. They take destructive shortcuts."),
+      ("Then shrink the permissions. Least-privilege tools, budgets, human approval on irreversible steps. Failure should be *bounded, visible, and cheap.*",
+       "Then shrink the permissions. Least privilege tools, budgets on time and actions, human approval on irreversible steps. The goal is a system where failure is bounded, visible, and cheap.")],
+     ["Write down the three worst things your agent could do with its current permissions.",
+      "Redesign so the worst one is impossible.",
+      "Make the other two recoverable."],
+     "Your practice. Red team your own agent. Write down the three worst things it could do with its current permissions. "
+     "Then change the design so the worst one is impossible, and the other two are recoverable."),
+    ("agency-1-2", "permission-is-imaginary",
+     ("Permission is mostly *imaginary.*", "Permission is mostly imaginary.", 126),
+     [("Most of the permission people wait for is a social guess about what might *annoy* someone.",
+       "Most of the permission people wait for doesn't exist as a rule anywhere. It's a social guess about what might annoy someone."),
+      ("Reversible? *Act and inform.* Irreversible? Ask fast, with a recommendation: “I plan to do X by Friday unless you object.”",
+       "If it's reversible, act and inform. If it's expensive or irreversible, ask fast, with a recommendation attached. I plan to do X by Friday, unless you object, gets more done than should I do X ever has.")],
+     ["Pick one thing you've been waiting for permission to do.",
+      "Reversible? Do it this week, and inform.",
+      "Not reversible? Send the “I plan to, unless you object” message today."],
+     "Your practice. Pick one thing you've been waiting for permission to do. Is it reversible? If so, do it this week and inform. "
+     "If not, send the, I plan to, unless you object, message today."),
+    ("agency-3-2", "delegating-to-machines",
+     ("Not “help me write this.” *“Own this report.”*", "Not, help me write this. Instead: own this whole report.", 102),
+     [("Treat AI delegation as a *management* skill. Give the goal and constraints, not keystrokes. Demand artifacts you can verify.",
+       "Treat A I delegation as a management skill, not a tool skill. Give the goal and the constraints, not keystroke instructions, and demand artifacts you can verify."),
+      ("Review *early,* before errors compound. Keep a written record of what worked. Good briefers become the best AI operators.",
+       "Review early, before errors compound. And keep a written record of what worked. The managers who were good at briefing people are suddenly the best A I operators.")],
+     ["Choose one recurring deliverable you produce.",
+      "Write a standing brief: goal, audience, quality bar, examples.",
+      "Have AI produce the next one end to end. Review like a manager, not a co-author."],
+     "Your practice. Choose one recurring deliverable you produce. Write a standing brief for it. Goal, audience, quality bar, examples. "
+     "Have A I produce the next one end to end, and review it like a manager, not a co author."),
+    ("taste-2-2", "the-language-of-critique",
+     ("“Make it pop” is not *critique.*", "Make it pop. Is not critique.", 122),
+     [("“The primary action competes with three other elements of equal weight.” That is *critique.* Specific, and tied to intent.",
+       "The primary action competes with three other elements of equal weight. That is critique. It's specific, and tied to intent."),
+      ("Start from intent. Judge against it, not your preferences. This is also the language that *steers AI tools.* They shrug at vibes.",
+       "Start from intent. Judge against it, not against your preferences. And this is exactly the language that steers A I tools. They respond to precision and shrug at vibes.")],
+     ["Critique one piece of work: a colleague's, a famous product's, or your own.",
+      "Four sentences: intent, what serves it, what fights it, one concrete suggestion.",
+      "Zero adjectives of pure preference."],
+     "Your practice. Critique one piece of work this week, a colleague's, a famous product's, or your own. "
+     "Four sentences minimum. Intent, what serves it, what fights it, and one concrete suggestion. Zero adjectives of pure preference."),
+    ("taste-4-2", "directing-not-prompting",
+     ("Prompting asks the machine to *guess* your taste.", "Prompting asks the machine to guess your taste. Directing supplies it.", 104),
+     [("Directing means a *creative brief.* Who it's for. The one feeling it must produce. Three references. What's off the table.",
+       "Directing means a creative brief. Who this is for. The one feeling it must produce. Three reference works, and the principle each contributes. And what is absolutely off the table."),
+      ("Without a brief, AI returns the *statistical average* of everything. Which is precisely what mediocrity is.",
+       "Without a brief, A I returns the statistical average of everything, which is precisely what mediocrity is.")],
+     ["Write a one-page brief for a real task: audience, the single feeling, three annotated references, the forbidden list.",
+      "Run it through your AI tool.",
+      "Run the old two-line prompt too, and compare side by side."],
+     "Your practice. Write a one page brief for a real task. Audience, the single feeling, three annotated references, and the forbidden list. "
+     "Run it through your A I tool. Then run the same task with your old two line prompt, and put the results side by side."),
+    ("rel-2-1", "discovery-questions",
+     ("The past is *evidence.* The future is flattery.", "The past is evidence. The future is flattery.", 110),
+     [("Don't ask “would you use a tool that…?” You'll get *polite fiction.*",
+       "Don't ask people to predict. Would you use a tool that? You will get polite fiction."),
+      ("Ask: “Walk me through the last time this happened.” Then “*tell me more*,” three levels down. That's where the real problem lives.",
+       "Ask about the past. Walk me through the last time this happened. What did you do, what did it cost you? Then say, tell me more, three levels down. That is where the real problem lives.")],
+     ["Run three twenty-minute discovery conversations this week.",
+      "Past events only. “Tell me more” three levels down. Zero pitching.",
+      "Write down the problem you found versus the one you expected."],
+     "Your practice. Run three twenty minute discovery conversations this week. Past events only, tell me more, three levels down, and zero pitching. "
+     "Then write down the problem you found, versus the problem you expected."),
+    ("rel-4-2", "qualify-hard-pitch-plainly",
+     ("Hope is not a *pipeline stage.*", "Hope is not a pipeline stage.", 126),
+     [("Time is a salesperson's only inventory. Four questions: is the pain *real,* is there *money,* can they *decide,* is there a reason to act *now?*",
+       "Time is the salesperson's only inventory. So qualify with four questions. Is the pain real? Is there money? Can your contact decide? And is there a reason to act now?"),
+      ("Two or more no's: nurture politely and move on. Then pitch like a person. *Plainness* is a relief to people drowning in AI decks.",
+       "Two or more no's, nurture politely and move on. When you do pitch, pitch like a person. Decision makers drowning in A I generated decks experience plainness as relief.")],
+     ["Score your pipeline against the four questions.",
+      "Retire every deal scoring below two, gracefully, with the door left open.",
+      "Rewrite your pitch as five plain sentences."],
+     "Your practice. Score your current pipeline against the four questions. Formally retire every deal scoring below two, "
+     "with a graceful note that leaves the door open. Then rewrite your pitch as five plain sentences."),
+    ("comm-3-1", "the-slide-is-not-the-talk",
+     ("The slide is not the *talk.*", "The slide is not the talk.", 130),
+     [("A presentation is a spoken argument with visual support. Not a document *performed aloud.*",
+       "A presentation is a spoken argument with visual support. Not a document performed aloud."),
+      ("Build it in order: one point, three beats, and only then slides. AI makes handsome decks in minutes, so the merely handsome deck is *worthless.*",
+       "Build it in that order. The one point, the three beats that establish it, and only then slides. A I generates handsome decks in minutes now, which makes the merely handsome deck worthless.")],
+     ["Write the talk first: one point, three beats, in spoken language.",
+      "Build the fewest slides that support it.",
+      "Rehearse aloud twice, standing up. Then deliver."],
+     "Your practice. Take your next presentation and write the talk first. One point, three beats, in spoken language. "
+     "Then build the fewest slides that support it. Rehearse aloud twice, standing up, and deliver."),
+    ("comm-4-2", "altitude",
+     ("Every idea has four *altitudes.*", "Every idea has four altitudes.", 126),
+     [("One sentence for the hallway. One paragraph for the exec. One page for the decision. *Full depth* for the people doing the work.",
+       "One sentence for the hallway. One paragraph for the exec. One page for the decision. And the deep version for the people doing the work."),
+      ("The classic failure is *altitude mismatch.* Detail drowns a decision-maker. Hand-waving insults an expert. AI can compress, but it can't know what mattered. Review what it dropped.",
+       "The classic failure is altitude mismatch. Drowning a decision maker in detail, or hand waving at an expert. A I can compress honestly, but it cannot know what was important enough to survive. Review what it dropped.")],
+     ["Write your main project at four altitudes: sentence, paragraph, page, full depth.",
+      "Test the sentence on someone senior, and the page on someone technical.",
+      "Revise where their eyes glazed."],
+     "Your practice. Take your current main project and write it at all four altitudes. One sentence, one paragraph, one page, and full depth. "
+     "Test the sentence on someone senior, and the page on someone technical. Revise where their eyes glazed."),
 ]
 
 
@@ -173,7 +283,9 @@ if __name__ == "__main__":
     for n, lesson in enumerate(LESSONS, 1):
         if prefixes and not any(lesson[0].startswith(p) or f"{n:02d}" == p for p in prefixes):
             continue
-        render(f"{n:02d}-{lesson[1]}", build(lesson), OUT, WORK, preview=preview)
-    if not prefixes and not preview:
+        name = f"{n:02d}-{lesson[1]}"
+        post = os.path.join(OUT, "..", "..", "assets", "video", name + ".jpg") if "--posters" in args else None
+        render(name, build(lesson), OUT, WORK, preview=preview, poster=post)
+    if not prefixes and not preview and "--posters" not in args:
         with open(os.path.join(OUT, "captions.md"), "w") as f:
             f.write("# Practice video captions\n\n" + "\n".join(caption(x) for x in LESSONS))

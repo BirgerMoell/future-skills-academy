@@ -1169,3 +1169,214 @@ footer {
     align-items: flex-start;
   }
 }
+
+/* ---------- videos ---------- */
+
+.video-frame {
+  position: relative;
+  width: min(100%, 270px);
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  border-radius: 14px;
+  background: var(--plum);
+  box-shadow: 0 18px 40px -22px rgba(51, 36, 50, 0.45);
+}
+
+.video-frame video,
+.video-play,
+.video-play img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-play {
+  position: relative;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.video-play-icon {
+  position: absolute;
+  top: 76%;
+  left: 50%;
+  width: 56px;
+  height: 56px;
+  margin: -28px 0 0 -28px;
+  border-radius: 50%;
+  background: var(--carmine);
+  box-shadow: 0 8px 24px rgba(51, 36, 50, 0.3);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.video-play-icon::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -11px 0 0 -7px;
+  border-style: solid;
+  border-width: 11px 0 11px 19px;
+  border-color: transparent transparent transparent var(--bone);
+}
+
+.video-play:hover .video-play-icon,
+.video-play:focus-visible .video-play-icon {
+  background: var(--carmine-deep);
+  transform: scale(1.08);
+}
+
+.video-play:focus-visible {
+  outline: 3px solid var(--carmine);
+  outline-offset: -3px;
+}
+
+.video-dur {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(51, 36, 50, 0.78);
+  color: var(--bone);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+
+.lesson-video {
+  margin: 4px 0 28px;
+}
+
+.lesson-video figcaption {
+  margin-top: 10px;
+  color: var(--plum-soft);
+  font-size: 15px;
+}
+
+.watch {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.watch-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 270px) minmax(0, 1fr);
+  gap: clamp(28px, 6vw, 80px);
+  align-items: center;
+}
+
+.videos-hero {
+  padding-top: calc(var(--header) + 72px);
+}
+
+.videos-hero h1 {
+  margin: 0 0 20px;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(38px, 6vw, 72px);
+  line-height: 1.05;
+}
+
+.videos-hero .hero-lede {
+  max-width: 640px;
+  margin-left: 0;
+}
+
+.videos-hero h1 .accent {
+  color: var(--carmine);
+  font-style: italic;
+}
+
+.videos-section {
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+
+.vfilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 28px;
+}
+
+.vfilter {
+  padding: 8px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--plum);
+  font: inherit;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.vfilter:hover {
+  border-color: var(--carmine);
+}
+
+.vfilter.is-active {
+  border-color: var(--carmine);
+  background: var(--carmine);
+  color: var(--bone);
+}
+
+.vgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 36px 28px;
+}
+
+.vcard[hidden] {
+  display: none;
+}
+
+.vcard h3 {
+  margin: 14px 0 6px;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.25;
+}
+
+.vcard p {
+  margin: 0;
+  color: var(--plum-soft);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.vcard-tag {
+  display: block;
+  margin-top: 14px;
+  color: var(--carmine);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.vcard-tag + h3 {
+  margin-top: 4px;
+}
+
+.vcard-link {
+  color: var(--carmine);
+  font-size: 15px;
+}
+
+.vcard-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .watch-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vgrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 16px;
+  }
+}

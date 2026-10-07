@@ -6,6 +6,7 @@ besides the logo files already in /assets.
 """
 import math
 import os
+import re
 import subprocess
 import wave
 
@@ -367,8 +368,16 @@ def make_pad(path, seconds, sr=44100):
         w.writeframes((out * 32767).astype("<i2").tobytes())
 
 
+AI_RE = re.compile(r"\bA\.? ?I\b")
+
+
+def spoken(text):
+    """Strip markup and force "AI" to be said as the letters A-I (stress on the I)."""
+    return AI_RE.sub("[AI](/ˌeɪˈaɪ/)", text.replace("*", ""))
+
+
 # -------------------------------------------------------------------- render
-def render(name, beats, outdir, work, speed=0.95, preview=False):
+def render(name, beats, outdir, work, speed=0.95, preview=False, poster=None):
     os.makedirs(work, exist_ok=True)
     os.makedirs(outdir, exist_ok=True)
     t = 0.5
@@ -376,7 +385,7 @@ def render(name, beats, outdir, work, speed=0.95, preview=False):
     for i, b in enumerate(beats):
         aiff = os.path.join(work, f"{name}_{i:02d}.wav")
         if not os.path.exists(aiff):
-            jobs[aiff] = b.say.replace("*", "")
+            jobs[aiff] = spoken(b.say)
     if jobs:
         import json
         jf = os.path.join(work, f"{name}_jobs.json")
@@ -410,6 +419,13 @@ def render(name, beats, outdir, work, speed=0.95, preview=False):
                     "-map", "[o]", "-c:a", "aac", "-b:a", "192k", audio], check=True)
 
     nframes = int(total * FPS)
+    if poster:
+        b = beats[0]
+        b.fade_in = b.fade_out = False
+        img = background(b.start + 1.0, total)
+        b.draw(img, b.dur)
+        img.resize((540, 960), Image.LANCZOS).save(poster, quality=88)
+        return total
 
     def frame(fi):
         gt = fi / FPS
